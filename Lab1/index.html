@@ -2,59 +2,52 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Document</title>
-        <link rel="stylesheet" href="Assets/stylesheets/main.css">
+        <title>Pierwszy projekt</title>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bevan&family=Pacifico&family=Yeseva+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/default.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <script src="./assets/scripts/main.js"></script>
+        <link rel="icon" href="https://i.imgur.com/0E39iBi.png">
     </head>
+
     <body>
-        <h1 id="naglowek">Pierwszy HTML</h1>
-        <p class="kolorek" id="id_kolor">
-            Przykładowy tekst</p>
-        <p>Lab 1</p>
-        <p class ="background">Przykładowy opis</p_id>
-        <script src="Assets\Scripts\main.js"></script>
+        <header>
 
-        <h1>Heading Level 1</h1>
-        <h2>Heading Level 2</h2>
-        <h3>Heading Level 3</h3>
-        <h4>Heading Level 4</h4>
-        <h5>Heading Level 5</h5>
-        <h6>Heading Level 6</h6>
+            <header id="naglowek">
+                <div class="blok">
+                    <h1>Strona główna</h1>                    
+                </div>    
+            </header>
 
-        <!-- Strong importance -->
-        <p><strong>Caution:</strong> Falling rocks.</p>
+            <nav id="nawigacja">
+                <div class="blok">
+                <ul>
+                    <li> <a href="./pages/list.html">List</a> </li>
+                    <li> <a href="./pages/podrecznik.html">Podręcznik</a> </li>
+                    <li> <a href="./pages/formularz.html">Formularz</a> </li>
+                </ul> 
+            </div>             
+            </nav> 
+        </header>
 
-        <!-- Stylistically offset -->
-        <p>This recipe calls for <b>bacon</b> and <b>baconnaise</b>.</p>
+        <section id="showcase">
+            <div class="blok">
+            </div>
+        </section>
 
-            <ol>
-                <li>
-                    Element Pierwszy
-                </li>
-                <li>
-                    Element drugi
-                </li>
-            </ol>
-            <ul>
-                <li>
-                    Element Pierwszy
-                </li>
-                <li>
-                    Element drugi
-                </li>
-            </ul>
-
-            <!DOCTYPE html>
-
-
-            <h2>A Description List</h2>
-
-            <dl>
-            <dt>Coffee</dt>
-            <dd>- black hot drink</dd>
-            <dt>Milk</dt>
-            <dd>- white cold drink</dd>
-            </dl>
-
-
+        <div class="blok">
+            <section id="about"> 
+                <p id="tytul">To moja pierwsza strona internetowa!</p>                
+                <p id="opis">Mam na imię Jagoda.
+                    <br>Jestem studentką trzeciego roku na Akademii Marynarki Wojennej na kierunku Informatyka. W wolnym czasie lubię grać na skrzypcach i ukulele,
+                    a także grać w gry komputerowe. Stawiam również pierwsze kroki w Digital Art.</p>         
+            </section>
+            <aside id="sidebar">            
+                <p class="zdjecie"><img id="zdjecie" src="https://i.imgur.com/EDoZSVp.png"></p>
+            </aside>
+        </div>
+        <footer class="stopka">
+            <p><button class="github" onclick="github()">github @ jagodalewandowska</button></p>
+        </footer>
     </body>
 </html>

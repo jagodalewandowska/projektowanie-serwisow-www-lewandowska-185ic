@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularz</title>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bevan&family=Pacifico&family=Yeseva+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/default.css">
+        <link rel="stylesheet" href="../assets/css/formularz.css">    
+        <script src="../assets/scripts/main.js"></script>
+        <link rel="icon" href="https://i.imgur.com/0E39iBi.png">
+    </head>
+
+    <body>
+        <header>
+            <script src="../assets/scripts/main.js"></script>
+            <header id="naglowek">
+                <div class="blok">
+                    <h1>Formularz</h1>                    
+                </div>    
+            </header>
+
+            <!-- Nawigacja -->
+
+            <nav id="nawigacja">
+                <div class="blok">
+                    <ul>
+                        <li> <a href="../index.html">Strona główna</a> </li>
+                        <li> <a href="../pages/list.html">List</a> </li>
+                        <li> <a href="../pages/podrecznik.html">Podręcznik</a> </li>                        
+                    </ul> 
+                </div>             
+            </nav> 
+        </header>
+
+        <!-- Formularz -->
+
+        <div class="blok">        
+            <section id="formularz"> 
+
+                <!-- Element do ukrycia -->
+
+                <div id="ukryj">
+                    <form class="zawartosc">
+                        <h1>Księga gości</h1>
+                        <p>Wpisz swoje imię oraz opinię.</p>
+                        <hr>
+
+                        <!-- Imię oraz wpis -->
+
+                        <label for="imie"><b>Imię</b></label>
+                        <input type="text" id="imie" placeholder="Wprowadź swoje imię">
+                        <br><label for="opinia"><b>Wpis</b></label>
+                        <input type="text" id="opinia" placeholder="Miejsce na Twoją opinię">
+
+                        <!-- Radio button -->
+
+                        <br><label for="plec"><b>Płeć</b></label>
+                        <br><input type="radio" id="mezczyzna" name="plec" value="mezczyzna">
+                        <label for="mezczyzna">Mężczyzna</label>
+                        <br><input type="radio" id="kobieta" name="plec" value="kobieta">
+                        <label for="kobieta">Kobieta</label>
+                        <br><input type="radio" id="Inna" name="plec" value="inna">
+                        <label for="inna">Inna</label>
+
+                        <!-- Check box -->
+
+                        <p><label for="najciekawsza"><b>Zaznacz strony, które Ci się spodobały.</b></label></p>
+                        <input type="checkbox" id="stronaGlowna" name="glowna" value="stronaGlowna">
+                        <label for="stronaGlowna">Strona główna</label><br>
+                        <input type="checkbox" id="stronaPodrecznik" name="podr" value="stronaPodrecznik">
+                        <label for="stronaPodrecznik">Podręcznik</label><br>
+                        <input type="checkbox" id="stronaList" name="list" value="stronaList">
+                        <label for="stronaList">List</label>
+                        <hr>                    
+                    </form>
+                    <button class="wyslij" onclick="wyslijOpinie()">Wyślij!</button>                
+                </div>      
+                    
+                <!-- Element do wyświetlenia -->
+
+                <div id="pokaz">
+                    <h1>Twój wpis został wysłany!</h1>
+                    <br><p id="tresc">Treść wpisu:</p>
+                    <hr>
+                    <p><span id="wyswietlImie"></span>:</p>   
+                    <p class="center"><span id="wyswietlWiadomosc"></span></p>
+                </div>
+            </section>
+        </div>
+
+        <div class="nav">
+            <div class="blok" id="center">
+                <ul>                    
+                    <li><button class="odnosnik" onclick="goBack()"> Powrót </button></li>
+                    <li><button class="odnosnik" onclick="goStronaGlowna()"> Strona główna </button></li>         
+                </ul> 
+            </div>            
+        </div>
+
+        <!-- Stopka -->
+        
+        <footer class="stopka">
+            <p><button class="github" onclick="github()">github @ jagodalewandowska</button></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,123 @@
+/* Wygląd strony */
+
+body {
+    background-color:#8FD2F3;
+    color:#1B2C33;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 25px;
+    margin:0;
+}
+
+.blok {
+    width: 50%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#naglowek {
+    font-family: 'Bevan', cursive;
+    background-color:#1F89BC;
+    color:white;
+}
+
+/* Nawigacja */
+
+#nawigacja {
+    font-family: 'Amatic SC', cursive;
+    background-color: #8FD2F3;
+    border-bottom-style: solid;
+}
+
+#nawigacja ul {
+    padding:0px;
+    list-style: none;
+}
+
+#nawigacja li {
+    display: inline;
+}
+
+#nawigacja a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 30px;
+}
+
+/* Powrót do strony głównej */
+
+.powrot {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+/* Odnośnik do zewnątrznej strony */
+
+.odnosnik { 
+    border-radius: 20px;
+    border: solid;
+    border-color: #1F89BC;
+    background: white;
+    cursor: pointer;
+    font-family: 'Bevan', cursive;
+    color: #1B2C33;
+    font-size: 20px;
+    margin-bottom: 80px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 30%;
+}
+
+/* Wyśrodkowanie i formatowanie tekstu*/
+
+.center {
+    text-align: center;
+}
+
+#center {
+    text-align: center;
+}
+
+.akapit {
+    text-indent: 5%;
+}
+
+/* Stopka */
+
+.stopka {
+    font-family: 'Bevan', cursive;
+    background-color: #1F89BC;
+    color: #1B2C33;
+    text-align: center;
+    border-top-style: solid;
+    width:100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+.github {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: 'Bevan', cursive;
+    color: #1B2C33;
+}
+
+.nav {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.nav ul {
+    padding:0px;
+    list-style: none;
+}
+
+.nav li {
+    display: inline;
+}

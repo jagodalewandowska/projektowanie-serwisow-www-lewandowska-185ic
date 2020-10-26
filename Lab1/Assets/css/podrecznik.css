@@ -1,0 +1,79 @@
+/* Tło */
+
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/37f7f742-dca4-4601-8f2b-536f03b1f839/dczshxg-e02470f8-13dc-4908-a281-e99b05faf989.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMzdmN2Y3NDItZGNhNC00NjAxLThmMmItNTM2ZjAzYjFmODM5XC9kY3pzaHhnLWUwMjQ3MGY4LTEzZGMtNDkwOC1hMjgxLWU5OWIwNWZhZjk4OS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.L4r53jzfBJ-KMyOt61MDh-0J9cE9G8kN7gGfGnE97jc);
+}
+
+/* Wygląd części głównej*/
+
+#podrecznik {
+    margin-top: 20px;
+    height: 800px;
+    font-family: 'Amatic SC', cursive;    
+    float:left;
+    width: 70%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+#rozdzial {
+    font-size: 30px;
+    font-family: 'Bevan', cursive;
+}
+
+#tresc {
+    font-family: 'Yeseva One', cursive;
+    text-align: justify;
+    font-size: 15px;
+}
+
+#table, th, td{
+    width:70%;
+    font-family: 'Bevan','cursive';
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    border-spacing: none;
+}
+
+#naglowekTabeli {
+    background-color: rgb(182, 182, 182);
+}
+
+/* Margines */
+
+#margines {
+    margin-top: 20px;
+    height:800px;
+    float:right;
+    width: 30%;
+    background: #e6e6e6;
+    color: #182329;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-left-style: solid;
+    border-left-color: rgb(228, 162, 162);
+    font-family: 'Bevan, cursive';
+}
+
+#margines h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+#margines h3 {
+    font-family: 'Yeseva One', cursive;
+}
+
+#ciekawostka {
+    font-family: 'Yeseva One', cursive;
+    text-align: justify;
+}
+
+#matematyka {
+    width: 200px;
+    text-align: center;
+}
+
+

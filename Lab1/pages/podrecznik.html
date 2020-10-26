@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Podręcznik</title>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bevan&family=Pacifico&family=Yeseva+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/default.css">
+        <link rel="stylesheet" href="../assets/css/podrecznik.css">                  
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <link rel="icon" href="https://i.imgur.com/boRwqbZ.png">
+    </head>
+    <body>
+        <header>  
+            <!-- Nagłówek -->
+
+            <script src="../assets/scripts/main.js"></script>
+            <header id="naglowek">
+                <div class="blok">
+                    <h1>Podręcznik z matematyki</h1>                    
+                </div>    
+            </header>
+
+            <!-- Nawigacja -->
+
+            <nav id="nawigacja">
+                <div class="blok">
+                    <ul>
+                        <ul>
+                            <li> <a href="../index.html">Strona główna</a> </li>
+                            <li> <a href="../pages/list.html">List</a> </li>
+                            <li> <a href="../pages/formularz.html">Formularz</a> </li>   
+                        </ul>                   
+                    </ul> 
+                </div>             
+            </nav> 
+        </header>
+
+            <!-- Podręcznik -->
+            
+            <div class="blok">        
+                <section id="podrecznik">  
+                    <p id="rozdzial" class="center">Wybrane całki nieoznaczone</p> 
+                    <p class="akapit" id="tresc">Całka jest to jedno z podstawowych pojęć matematyki, wprowadzone niezależnie przez I. Newtona i G.W. 
+                        Leibniza pod koniec XVII w. jako nowe narzędzie rachunkowe;</p>
+
+                        <br>$$\int x^{a}dx = \frac{x^{a+1}}{a+1} + C$$
+
+                    <p id="tresc"><br>Ma szerokie zastosowania nie tylko w matematyce, ale i w dziedzinach z nią związanych, głównie w fizyce i technice
+                        (pierwotnie miała służyć jako narzędzie do obliczania pól i objętości figur geometrycznych). Występuje w dwóch podstawowych, 
+                        ściśle ze sobą związanych, znaczeniach: całki nieoznaczonej i całki oznaczonej.</p><br>
+                    
+                    <!-- Tabela -->
+
+                    <p><table>
+                        <tr id="naglowekTabeli">
+                            <th>Całka</th>
+                            <th>Wynik całkowania</th>
+                        </tr>
+                        <tr>
+                            <td>$$\int \frac{1}{x}$$</td>
+                            <td>$$ln|x|+C$$</td>
+                        </tr>
+                        <tr>
+                            <td>$$\int \frac{dx}{x^2+a^2}$$</td>
+                            <td>$$\frac{1}{a}arctg\frac{x}{a} + C$$</td>
+                        </tr>
+                    </table></p>            
+                </section>
+
+                <!-- Margines -->
+
+                <aside id ="margines">
+                    <div id="chart_div"></div>                
+                    <p><h1>Ciekawostka</h1></p>
+                    <p id="ciekawostka">Istnieją całki, których w praktyce nie jesteśmy w stanie obliczyć podając zwięzły wzór 
+                        (choć czasami można zapisać daną całkę za pomocą funkcji specjalnych).</p>                
+                    <p class="matematyka" id="center"><img id="matematyka" src="https://exstemsions.com/assets/img/marketing/icons/math-fun.png"></p>
+                </aside>        
+            </div> 
+
+        <!-- Odnośnik do źródła i stopka -->
+            <div class="nav">
+                <div class="blok" id="center">
+                    <ul>
+                        <li><button class="odnosnik" onclick="goBack()"> Poprzednia strona </button></li>
+                        <li><button class="odnosnik" onclick="goStronaGlowna()"> Strona główna </button></li> 
+                        <li><button class="odnosnik" onclick="zrodloPodrecznika()"> Źródło </button></li>                 
+                    </ul> 
+                </div>            
+            </div>
+            <footer class="stopka">                
+                <p><button class="github" onclick="github()">github @ jagodalewandowska</button></p>
+            </footer>
+        </body>
+    </body>
+</html>

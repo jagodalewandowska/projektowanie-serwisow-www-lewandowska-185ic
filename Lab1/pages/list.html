@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>List</title>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bevan&family=Pacifico&family=Yeseva+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/default.css">
+        <link rel="stylesheet" href="../assets/css/list.css">    
+        <script src="../assets/scripts/main.js"></script>
+        <link rel="icon" href="https://i.imgur.com/0E39iBi.png">
+    </head>
+    <body>
+        
+        <!-- Nagłówek -->
+
+        <header>
+            <script src="../assets/scripts/main.js"></script>
+            <header id="naglowek">
+                <div class="blok">
+                    <h1>List</h1>                    
+                </div>    
+            </header>
+
+            <!-- Nawigacja -->
+
+            <nav id="nawigacja">
+                <div class="blok">
+                    <ul>
+                        <ul>
+                            <li> <a href="../index.html">Strona główna</a> </li>
+                            <li> <a href="../pages/podrecznik.html">Podręcznik</a> </li>
+                            <li> <a href="../pages/formularz.html">Formularz</a> </li>   
+                        </ul>                   
+                    </ul> 
+                </div>             
+            </nav> 
+        </header>
+
+        <!-- List -->
+
+        <div id="center">
+            <h1>Przykładowy list</h1>
+        </div>
+        <div class="blok">        
+            <section id="list"> 
+
+                <!-- Adresat -->
+
+                <p class ="center" id="top">
+                    John Donaldson
+                    <br>8 Sue Circle, Smithtown, CA 08067
+                </p>
+                <p class = "adres"><b>August 14, 2020</b>
+                    <br>George Gilhooley
+                    <br>Times Union 87
+                    <br>Delaware Road Hatfield, CA 08065 
+                </p>
+
+                <!-- Treść listu --> 
+
+                <p><br>Dear Mr. Gilhooley,</p>
+                <p class="akapit"> I am writing to apply for the programmer position advertised in the Times Union. As requested, I enclose a completed job application, my certification, my resume, and three references. </p>
+                <p class="akapit">
+                    The role is very appealing to me, and I believe that my strong technical experience and education make me a highly competitive candidate for this position. My key strengths that would support my success in this position include: </p>
+                <p>
+                    <li> I have successfully designed, developed, and supported live-use applications. </li>
+                    <li> I strive continually for excellence. </li>
+                    <li> I provide exceptional contributions to customer service for all customers.  </li>
+                </p>
+                <p class="akapit"> With a BS degree in Computer Programming, I have a comprehensive understanding of the full lifecycle for software development projects. I also have experience in learning and applying new technologies as appropriate. Please see my resume for additional information on my experience. </p>
+                <p>I can be reached anytime via email at john.donaldson@emailexample.com or by cell phone, 909-555-5555.</p>
+                <p> Thank you for your time and consideration. I look forward to speaking with you about this employment opportunity. </p>
+                <p><br><b>Yours faithfully</b></p>
+                <p>
+                    <i>TV A. Taslim
+                    <br>Sales Manager</i>
+                    <br>VISION CORNER
+                </p>            
+            </section>
+        </div>
+
+        <!-- Źródło i stopka -->
+        
+        <div class="nav">
+            <div class="blok" id="center">
+                <ul>                    
+                    <li><button class="odnosnik" onclick="goBack()"> Powrót </button></li>
+                    <li><button class="odnosnik" onclick="goStronaGlowna()"> Strona główna </button></li> 
+                    <li><button class="odnosnik" onclick="zrodloListu()"> Źródło </button></li>               
+                </ul> 
+            </div>            
+        </div>
+        <footer class="stopka">
+            <p><button class="github" onclick="github()">github @ jagodalewandowska</button></p>
+        </footer>
+    </body>
+</html>

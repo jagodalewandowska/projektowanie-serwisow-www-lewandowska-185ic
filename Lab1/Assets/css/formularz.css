@@ -1,0 +1,70 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/66/70/f9/6670f9cdbbca510e583fd2752b9d769a.jpg);
+}
+
+/* Zawartość formularza */
+
+.zawartosc {
+    padding: 16px;
+}
+
+#formularz {
+    font-family: 'Yeseva One', cursive;
+    text-align: justify;
+    background-color: rgb(243, 243, 243);
+    color: rgb(46, 46, 46);
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: 10px;
+    font-size: 15px;
+    height: 700px;
+}
+
+#imie {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+#opinia {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+#wyswietlImie {    
+    font-size: 15px;
+}
+
+#wyswietlWiadomosc {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+/* Wygląd przycisku */
+
+.wyslij {
+    background-color: #1F89BC;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+/* Parametr do ukrywania elementu */
+
+#pokaz {
+    display: none;
+}
+
+
+

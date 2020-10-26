@@ -1,0 +1,68 @@
+body {
+    background-color:#182329;
+    color:#1B2C33;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 25px;
+    margin:0;
+}
+
+/* Nagłówek zdjęcie */
+
+#showcase {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/37f7f742-dca4-4601-8f2b-536f03b1f839/dczshxg-e02470f8-13dc-4908-a281-e99b05faf989.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMzdmN2Y3NDItZGNhNC00NjAxLThmMmItNTM2ZjAzYjFmODM5XC9kY3pzaHhnLWUwMjQ3MGY4LTEzZGMtNDkwOC1hMjgxLWU5OWIwNWZhZjk4OS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.L4r53jzfBJ-KMyOt61MDh-0J9cE9G8kN7gGfGnE97jc);
+    background-position: center;
+    height: 400px;
+    border-bottom-style: solid;
+}
+
+/* Tekst główny */
+
+#about {    
+    font-family: 'Amatic SC', cursive;    
+    float:left;
+    width: 70%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.zdjecie {
+    text-align: center;
+}
+
+#tytul {
+    text-shadow: 2px 1px #000000;    
+    font-size: 50px;
+    color: white;
+}
+
+#opis {
+    font-family: 'Yeseva One', cursive;
+    font-size: 15px;
+    text-indent: 5%;
+    color: #ffffff;
+    text-align: justify;
+}
+
+/* Wygląd bloku aside */
+
+#sidebar {
+    float:right;
+    width: 30%;
+    color: #182329;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Usuwa floats, jeżeli strona jest zbyt wąska */
+
+@media(max-width:700px){    
+    #main {
+        width: 100%;
+        float: none;
+    }
+    #sidebar {
+        width: 100%;
+        float: none;
+    }
+}
