@@ -9,7 +9,7 @@
 # Zrzuty ekranów poszczególnych stron
 
 ### Strona główna
-##### Strona główna zawiera podstawowe informacje o autorze, a także odnośniki do poszczególnych stron: list, podręcznik oraz formularz. Znajdują się na niej przyciski w nawigacji oraz w stopce do mojego konta na GitHub.
+##### Strona główna zawiera podstawowe informacje o autorze, przycisk w stopce do mojego konta na GitHub, a także odnośniki do poszczególnych stron: list, podręcznik oraz formularz. Znajdują się na niej przyciski w nawigacji.
 
 ![alt text](https://i.imgur.com/kl8rpS6.png)
 
