@@ -1,5 +1,5 @@
 # Lab 1
-##### Do wykonania strony wykorzystałam html, css, oraz js. Nie korzystałam jednak z szablonu Bootstrapa, jedynie z biblioteki **MathJax** oraz **Google Charts** do dodania wykresu na podstronie Podręcznik. Plik main.js zawiera funkcje, które przenoszą 
+##### Do wykonania strony wykorzystałam html, css, oraz js. Nie korzystałam jednak z szablonu Bootstrapa, jedynie z biblioteki **MathJax** oraz **Google Charts** do dodania wykresu na podstronie Podręcznik. Plik main.js zawiera funkcje, które przenoszą do poszczególnych podstron lub do stron źródłowych (w przypadku podręcznika oraz listu). Są tam również ustawienia wykresu oraz funkcja ukrywające formularz.
 
 ####
 ##### Wymagania dotyczące zadania pierwszego:
