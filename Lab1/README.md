@@ -18,14 +18,14 @@
 
 ![alt text](https://i.imgur.com/ezCp9eH.png)
 
-## Podręcznik
+### Podręcznik
 ##### Do utworzenia strony z podręcznika wykorzystałam: 
 - **MathJax** - do tworzenia wzorów matematycznych
 - **Google Charts** - do wykresu kołowego
 
 ![alt text](https://i.imgur.com/zDo299W.png)
 
-## Formularz
+### Formularz
 ##### Przy formularzu wykorzystałam również funkcję w skrypcie, która przechowuje wpisanie wartości w polach imię oraz wpis, a następnie zwraca je, ukrywając w tym samym czasie formularz.
 
 ![alt text](https://i.imgur.com/uJJYnvd.png)
