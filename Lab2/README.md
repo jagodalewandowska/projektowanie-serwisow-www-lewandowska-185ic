@@ -17,13 +17,13 @@
 # Pierwsza kolumna
 ##### Zawiera elementy:
 - Zmiana po najechaniu kursorem na blok.
-![alt text](https://i.imgur.com/PXIAaXo.png)![alt text](https://i.imgur.com/c3B1Ew9.png)
+![alt text](https://i.imgur.com/PXIAaXo.png) ![alt text](https://i.imgur.com/c3B1Ew9.png)
 ###
 - Licznik kliknięć w przycisk - przykład po 26 kliknięciach.
-![alt text](https://i.imgur.com/amzSAL6.png)![alt text](https://i.imgur.com/aqBHxTf.png)
+![alt text](https://i.imgur.com/amzSAL6.png) ![alt text](https://i.imgur.com/aqBHxTf.png)
 ###
 - Zamiana zdjęcia na inne.
-![alt text](https://i.imgur.com/kbUvcu4.png)![alt text](https://i.imgur.com/UFfnaMc.png)
+![alt text](https://i.imgur.com/kbUvcu4.png) ![alt text](https://i.imgur.com/UFfnaMc.png)
 ###
 - Podanie dzisiejszej daty.
 ![alt text](https://i.imgur.com/pbN3DAx.png)![alt text](https://i.imgur.com/4g5LO87.png)
