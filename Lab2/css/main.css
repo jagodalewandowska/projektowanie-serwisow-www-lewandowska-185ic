@@ -1,0 +1,15 @@
+.rotate {
+    /*dla internet explorer*/
+    -ms-transform: rotate(90deg);
+    /*dla firefox+google chrome+android+ios*/
+     -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+ }
+ 
+.normal {
+    /*dla internet explorer*/
+    -ms-transform: rotate(0deg);
+    /*dla firefox+google chrome+android+ios*/
+     -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+ }
