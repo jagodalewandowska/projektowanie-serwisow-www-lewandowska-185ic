@@ -17,7 +17,7 @@
 # Pierwsza kolumna
 ##### Zawiera elementy:
 - Zmiana po najechaniu kursorem na blok.
-![alt text](https://i.imgur.com/PXIAaXo.png) ![alt text](https://i.imgur.com/c3B1Ew9.png)
+![alt text](https://i.imgur.com/c3B1Ew9.png)
 ###
 - Licznik kliknięć w przycisk - przykład po 26 kliknięciach.
 ![alt text](https://i.imgur.com/amzSAL6.png) ![alt text](https://i.imgur.com/aqBHxTf.png)
