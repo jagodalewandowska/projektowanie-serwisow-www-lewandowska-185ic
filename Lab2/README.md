@@ -105,9 +105,8 @@
 ---
 ###
 - Sprawdzanie, czy pole nie jest puste. Informacja powiadomieniem.  
-![alt text](https://i.imgur.com/bnoAVrG.png)![alt text](https://i.imgur.com/mYJgPUD.png)
+![alt text](https://i.imgur.com/bnoAVrG.png)![alt text](https://i.imgur.com/mYJgPUD.png)  
 
----
 **Przy poprawnym wprowadzeniu tekstu:**  
 ![alt text](https://i.imgur.com/FP8hUEL.png)  
 
