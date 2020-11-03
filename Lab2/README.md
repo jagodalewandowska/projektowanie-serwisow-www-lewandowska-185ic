@@ -1,5 +1,5 @@
 # Lab 2
-##### Do wykonania strony wykorzystałam html, elementy css do uzyskania obrotu zdjęcia, js - a także Bootstrap. Plik script.js zawiera wszystkie użyte funkcje. Moja strona zawiera stronę główną (index.html), na której znajdują się wszystkie elementy wymagane w zadaniu -- oraz podstronę "Elementy na stronie", na której znajduje się ich lista. W nawigacji dodałam również odnośnik do mojego githuba.
+##### Do wykonania strony wykorzystałam html, elementy css do uzyskania obrotu zdjęcia, js - a także Bootstrap. Plik script.js zawiera wszystkie użyte funkcje. Moja strona zawiera stronę główną (index.html), na której znajduje się lista wszystkich elementów na stronie, podstronę "Modyfikacje" ze elementami wymaganymi do zadania oraz Galerię -- gdzie użyłam komponent o nazwie Carousel do prezentacji zdjęć (utworzenia galerii). W nawigacji dodałam również odnośnik do mojego Githuba.
 
 ####
 ##### Wymagania dotyczące drugiego zadania:
@@ -14,11 +14,11 @@
 
 ![alt text](https://i.imgur.com/sZws0T4.png)
 
-##### Modyfikacje
+### Modyfikacje
 
 ![alt text](https://i.imgur.com/szbFFTK.png)
 
-##### Galeria
+### Galeria
 ![alt text](https://i.imgur.com/EqD94Cy.png)
 
 
