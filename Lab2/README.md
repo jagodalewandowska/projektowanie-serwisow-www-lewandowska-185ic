@@ -22,8 +22,9 @@
 ### Galeria
 ![alt text](https://i.imgur.com/EqD94Cy.png)
 
+# Działanie poszczególnych elementów
 <details>
-# <summary> Działanie elementów</summary>
+<summary> [ Rozwiń ] </summary>
 # Pierwsza kolumna
 ##### Zawiera elementy:
 - Zmiana po najechaniu kursorem na blok.  
