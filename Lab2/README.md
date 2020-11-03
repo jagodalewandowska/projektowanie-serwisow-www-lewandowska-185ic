@@ -21,7 +21,8 @@
 ### Galeria
 ![alt text](https://i.imgur.com/EqD94Cy.png)
 
-
+<details>
+<summary>Działanie elementów</summary>
 # Pierwsza kolumna
 ##### Zawiera elementy:
 - Zmiana po najechaniu kursorem na blok.  
@@ -135,3 +136,4 @@
 ![alt text](https://i.imgur.com/myjTk1k.png)![alt text](https://i.imgur.com/KksiqZg.png)
 
 ---
+</details>
