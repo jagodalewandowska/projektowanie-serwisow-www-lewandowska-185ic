@@ -12,15 +12,21 @@
 ### Strona główna
 ##### Zawiera ona listę elementów zadania. 
 
-![alt text](https://i.imgur.com/sZws0T4.png)
+![alt text](https://i.imgur.com/sZws0T4.png)  
+
+---
 
 ### Modyfikacje
 ##### Zawiera elementy wymienione na stronie głównej - szczegółowy opis na dole README.md po rozwinięciu.
 
-![alt text](https://i.imgur.com/szbFFTK.png)
+![alt text](https://i.imgur.com/szbFFTK.png)  
+
+---
 
 ### Galeria
-![alt text](https://i.imgur.com/EqD94Cy.png)
+![alt text](https://i.imgur.com/EqD94Cy.png)  
+
+---
 
 # Działanie poszczególnych elementów
 
