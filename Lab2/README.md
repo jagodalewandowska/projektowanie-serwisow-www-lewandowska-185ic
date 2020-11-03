@@ -24,7 +24,8 @@
 
 # Działanie poszczególnych elementów
 <details>
-<summary> [ Rozwiń ] </summary>
+<summary> [ Rozwiń ] </summary>  
+
 # Pierwsza kolumna
 ##### Zawiera elementy:
 - Zmiana po najechaniu kursorem na blok.  
