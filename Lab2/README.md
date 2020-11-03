@@ -16,7 +16,7 @@
 
 ##### Lista elementów na stronie
 
-![alt text](https://i.imgur.com/YB02zyt.png)
+![alt text](https://i.imgur.com/pSiG4T5.png)
 
 
 # Pierwsza kolumna
