@@ -25,7 +25,7 @@
 # Działanie poszczególnych elementów
 
 
-# Pierwsza kolumna
+## Pierwsza kolumna
 
 <details>
 <summary> [ Rozwiń ] </summary>  
@@ -59,7 +59,7 @@
 ###
 </details>
 
-# Druga kolumna
+## Druga kolumna
 <details>
 <summary> [Rozwiń] </summary>  
 
@@ -104,7 +104,7 @@
 
 </details>
 
-# Trzecia kolumna
+## Trzecia kolumna
 <details>
 <summary> [Rozwiń] </summary>  
 
