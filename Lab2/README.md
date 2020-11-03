@@ -23,10 +23,13 @@
 ![alt text](https://i.imgur.com/EqD94Cy.png)
 
 # Działanie poszczególnych elementów
+
+
+# Pierwsza kolumna
+
 <details>
 <summary> [ Rozwiń ] </summary>  
 
-# Pierwsza kolumna
 ##### Zawiera elementy:
 - Zmiana po najechaniu kursorem na blok.  
 ![alt text](https://i.imgur.com/PXIAaXo.png) ![alt text](https://i.imgur.com/c3B1Ew9.png)
@@ -54,7 +57,12 @@
 ---
 
 ###
+</details>
+
 # Druga kolumna
+<details>
+<summary> [Rozwiń] </summary>  
+
 ##### Zawiera elementy:
 - Wyskakujące powiadomienie.  
 ![alt text](https://i.imgur.com/u7jtxQI.png)![alt text](https://i.imgur.com/3pi0v1p.png)
@@ -93,7 +101,14 @@
 ---
 ###
 ###
+
+</details>
+
 # Trzecia kolumna
+<details>
+<summary> [Rozwiń] </summary>  
+
+
 ##### Zawiera elementy:
 - Licznik obrazków na stronie  
 ![alt text](https://i.imgur.com/DPomAtu.png)![alt text](https://i.imgur.com/tclyLsS.png)
