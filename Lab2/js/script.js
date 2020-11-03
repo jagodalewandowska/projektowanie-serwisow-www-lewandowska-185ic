@@ -12,7 +12,7 @@ function buttonNotification(){
 
 // Pokaż zdjęcie
 function reveal(){
-    var rev = "../Lab2/imgs/revealed.png";
+    var rev = "../imgs/revealed.png";
     var img = document.getElementById('questionmark')
     img.src = rev.replace();
 }
@@ -134,7 +134,7 @@ function zmienCzcionke() {
 
 // Dźwięk
 function play() {
-    var audio = new Audio('../Lab2/mp3/amongus.mp3');
+    var audio = new Audio('../mp3/amongus.mp3');
     audio.play();
 }
 
