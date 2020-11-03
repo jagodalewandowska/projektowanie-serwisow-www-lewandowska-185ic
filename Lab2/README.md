@@ -10,13 +10,16 @@
 # Zrzuty ekranów poszczególnych stron
 
 ### Strona główna
-##### Zawiera ona wszystkie elementy zadania. 
+##### Zawiera ona listę elementów zadania. 
 
-![alt text](https://i.imgur.com/YB02zyt.png)
+![alt text](https://i.imgur.com/sZws0T4.png)
 
-##### Lista elementów na stronie
+##### Modyfikacje
 
-![alt text](https://i.imgur.com/pSiG4T5.png)
+![alt text](https://i.imgur.com/szbFFTK.png)
+
+##### Galeria
+![alt text](https://i.imgur.com/EqD94Cy.png)
 
 
 # Pierwsza kolumna
