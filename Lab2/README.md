@@ -23,7 +23,7 @@
 ![alt text](https://i.imgur.com/EqD94Cy.png)
 
 <details>
-<summary> # Działanie elementów</summary>
+# <summary> Działanie elementów</summary>
 # Pierwsza kolumna
 ##### Zawiera elementy:
 - Zmiana po najechaniu kursorem na blok.  
@@ -129,7 +129,7 @@
 ###
 - Zmiana tła na zdjęcie i jego usunięcie.  
 ![alt text](https://i.imgur.com/pBpz0qO.png)
-![alt text](https://i.imgur.com/e8jBISL.png)
+![alt text](https://i.imgur.com/oH4h0EX.png)
 
 ---
 ###
