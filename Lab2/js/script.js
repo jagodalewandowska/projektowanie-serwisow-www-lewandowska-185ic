@@ -123,30 +123,26 @@ function validateForm() {
 function zdjecieTlo(){
     document.body.style.backgroundImage = "url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/37f7f742-dca4-4601-8f2b-536f03b1f839/dczshxg-e02470f8-13dc-4908-a281-e99b05faf989.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMzdmN2Y3NDItZGNhNC00NjAxLThmMmItNTM2ZjAzYjFmODM5XC9kY3pzaHhnLWUwMjQ3MGY4LTEzZGMtNDkwOC1hMjgxLWU5OWIwNWZhZjk4OS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.L4r53jzfBJ-KMyOt61MDh-0J9cE9G8kN7gGfGnE97jc')";
 }
-
 function tloDefault(){
     document.body.style.backgroundImage = "url(none)";
 }
 
 // Zmień czcionkę
-
 function zmienCzcionke() {
     document.getElementById("tekstCzcionka").style.fontFamily = "'Pacifico', cursive";
 }
 
 // Dźwięk
-
 function play() {
     var audio = new Audio('../Lab2/mp3/amongus.mp3');
     audio.play();
 }
 
 // Przezroczystość
-
 function powiZdj(){
-        var yourImg = document.getElementById('powiekszenie');
-        if(yourImg && yourImg.style) {
-        yourImg.style.height = '100px';
-        yourImg.style.width = '200px';
+        var obrazek = document.getElementById('powiekszenie');
+        if(obrazek && obrazek.style) {
+        obrazek.style.height = '100px';
+        obrazek.style.width = '200px';
     }
 }
