@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <title>Lab 3</title>
     </head>
+
     <body>
       <!-- Nawigacja -->
       <nav class="navbar navbar-expand-sm bg-info navbar-dark" style="font-family:'Bevan'">
@@ -21,34 +22,62 @@
             <a class="nav-link" href="./pages/galeria.html">Galeria</a>
             <a class="nav-link" href="https://github.com/jagodalewandowska">Github</a>
           </div>
-      </nav>      
+      </nav>    
+
       <p class="display-2"></p>
       <div class="container">    
         <div class="row justify-content-center">    
-        <div class="col">
-            <span style="font-family:'Bevan', cursive; font-size:15px" id="szczek"></span>
-        </div>
-          <div class="col-7 text-center">            
-            <div class=span1><img src="../imgs/before.png" id="hug" class="rounded center-block"></div>
+
+          <!-- PIERWSZA KOLUMNA -->
+         
+          <div class="col-md-1">
+              <div ondrop="drop(event)" ondragover="drop(event)"><img src="../imgs/bowl.png" id="miska"></div><br>     
+              <span style="font-family:'Bevan', cursive; font-size:15px" id="szczek"></span>              
           </div>
-          <div class="col-4 bg-info rounded">    
+
+          <!-- DRUGA KOLUMNA -->
+
+          <div class="col-md-7 text-center">            
+            <div class="img-responsive"><img src="../imgs/before.png" id="hug" class="rounded center-block"></div>
+          </div>
+
+          <!-- TRZECIA KOLUMNA -->
+
+          <div class="col-md-4 bg-info rounded">  
+            <!-- Lista  -->
             <p style="font-family:'Bevan', cursive; font-size:15px">Wypróbuj jedną z poniższych czynności:</p>
             <ol class = "text-white" style="font-family:'Yeseva One', cursive; font-size:18px" class = "text-secondary">
                 <li>Najedź na zdjęcie.</li>
-                <li>Kliknij na zdjęcie.<br></li>                              
+                <li>Kliknij na zdjęcie.<br></li>  
+                <li>Wciśnij przycisk "m" na klawiaturze</li>     
+                <li>Wciśnij kombinację Ctrl+C</li>  
+                <li>Przeciągnij kość do miski<br></li>
+                <br>
+                <img id="kosc" src="../imgs/bone.png" draggable="true">          
             </ol>  
+
+            <!-- Plik audio -->
+            <audio id="meow" controls style="display:none">
+              <source src="../mp3/meow.mp3">
+            </audio>
+
+            <!-- Wyczyść -->
             <div class="text-center" style="font-family:'Bevan', cursive; font-size:15px" >
                 <button class="btn btn-secondary btn-lg btn-block" style="font-size:10px" id="wyczysc" onclick=wyczysc();>Wyczyść</button>
-            </div>            
+            </div> 
+            
+            <!-- Kotek -->            
+            <img src="../imgs/cat.gif" id="kotek" style="display:none;">
           </div>
         </div>      
-      </div>  
+      </div>     
     
       <footer class="footer-copyright text-center py-4">Źródło zdjęć
         <a href="https://www.deviantart.com/kristynakvapilova/gallery">Deviantart</a>
       </footer>
+      
     <script src="../js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    </body>
+    </body>     
 </html>
