@@ -39,42 +39,42 @@
 
 ##### Poszczególne zadania z krótkim opisem
 - Zad. 1 - Obliczanie ilości znaków za pomocą użycia funkcji split oraz join, pozbywając się jednocześnie spacji pomiędzy słowami.
-![alt text](https://i.imgur.com/MKd1DrD.png)
+![alt text](https://i.imgur.com/MKd1DrD.png)  
 
 ---
 ###
 - Zad. 2 - Zadanie w którym sumuje się przekazaną tablicę, a następnie zwraca sumę.
-![alt text](https://i.imgur.com/Z3QfTrw.png)
+![alt text](https://i.imgur.com/Z3QfTrw.png)  
 ---
 ###
 - Zad. 3 - Miksowanie liter za pomocą funkcji toUpperCase oraz toLowerCase po uwzględnieniu długości zdania w pętli for.
-![alt text](https://i.imgur.com/P8b4pZ2.png)
+![alt text](https://i.imgur.com/P8b4pZ2.png)  
 
 ---
 ###
 - Zad. 4 - Mnożenie dwóch atrybutów w przypadku, kiedy obydwa z nich są liczbami. 
-![alt text](https://i.imgur.com/I3Mg84K.png)
-
+![alt text](https://i.imgur.com/I3Mg84K.png)  
+ 
 ---
 ###
 - Zad. 5 - Wykorzystanie switch w celu napisania funkcji, która dodaje tekst w zależności od argumentów na wejściu.
-![alt text](https://i.imgur.com/DTi4ZqD.png)
+![alt text](https://i.imgur.com/DTi4ZqD.png)  
 
 ---
 - Zad. 6 - Rozdzielenie tekstu za pomocą funkcji split, a następnie posortowanie elementów funkcją sort() i dodanie ich do nowej tablicy.
-![alt text](https://i.imgur.com/Fx5tEHc.png)
+![alt text](https://i.imgur.com/Fx5tEHc.png)  
 
 ---
 - Zad. 7 - Stworzenie dwóch funkcji, w której pierwsza -- zamienia wszystkie litery na wielkie, oraz druga -- która sprawdza każde imię oraz jego literę, a następnie zamienia je w zależności na którym miejscu się znajduje.
-![alt text](https://i.imgur.com/KkKnKjB.png)
+![alt text](https://i.imgur.com/KkKnKjB.png)  
 
 ---
 - Zad. 8 - Sprawdzanie ostatniej litery za pomocą funkcji slice(), w celu weryfikacji czy wprowadzone osoba jest kobietą.
-![alt text](https://i.imgur.com/lYg70tP.png)
+![alt text](https://i.imgur.com/lYg70tP.png)  
 
 ---
 - Zad. 9 - Obliczanie ilości kobiet w tabeli, po oddzieleniu imienia, a następnie wykorzystaniu wcześniej napisanej funkcji. w Przypadku, kiedy funkcja wykryje kobietę, licznik zostaje zwiększony o jeden, który w efekcie końcowym poda liczbę kobiet w tablicy.
-![alt text](https://i.imgur.com/sqlGfcn.png)
+![alt text](https://i.imgur.com/sqlGfcn.png)  
 
 ---
 
