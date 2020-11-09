@@ -210,7 +210,7 @@
 
 ---
 </details>
-
+</details>
 
 ### Lab 3 - Obsługa zdarzeń - [Tutaj.](https://github.com/jagodalewandowska/projektowanie-serwisow-www-lewandowska-185ic/tree/main/Lab3)  
 
