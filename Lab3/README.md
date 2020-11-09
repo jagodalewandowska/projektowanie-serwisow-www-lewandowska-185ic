@@ -102,7 +102,7 @@
 
 ---
 ###
-- copy - Wciśnięcie kombinacji Ctrl+C, aby wyświetlić powiadomienie. 
+- copy - Wciśnięcie kombinacji Ctrl+C, aby wyświetlić powiadomienie.  
 ![alt text](https://i.imgur.com/S6XcqKq.png)
 
 ---
