@@ -6,6 +6,7 @@ konsola.addEventListener("click", function() {
 // Zad. 1
 
 function ileLiter(input) {
+        input = input.split(" ").join("");
         return input.length;
 }
 
