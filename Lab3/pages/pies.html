@@ -17,9 +17,9 @@
       <!-- Nawigacja -->
       <nav class="navbar navbar-expand-sm bg-info navbar-dark" style="font-family:'Bevan'">
         <div class="navbar-nav">
-            <a class="nav-link" href="../index.html">Strona główna</a>            
-            <a class="nav-link active" href="./pages/pies.html">Pies</a>
-            <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+            <a class="nav-link" href="../index.html">Strona główna</a>  
+            <a class="nav-link" href="../pages/zadania.html">Zadania</a>              
+            <a class="nav-link active" href="pies.html">Pies</a>
             <a class="nav-link" href="https://github.com/jagodalewandowska">Github</a>
           </div>
       </nav>    
@@ -31,7 +31,9 @@
           <!-- PIERWSZA KOLUMNA -->
          
           <div class="col-md-1">
-              <div ondrop="drop(event)" ondragover="drop(event)"><img src="../imgs/bowl.png" id="miska"></div><br>     
+              <!-- Kotek -->            
+              <img src="../imgs/cat.gif" id="kotek" style="display:none;">   
+              <div ondrop="drop(event)" ondragover="drop(event)"><img src="../imgs/bowl.png" id="miska"></div><br>                
               <span style="font-family:'Bevan', cursive; font-size:15px" id="szczek"></span>              
           </div>
 
@@ -48,29 +50,38 @@
             <p style="font-family:'Bevan', cursive; font-size:15px">Wypróbuj jedną z poniższych czynności:</p>
             <ol class = "text-white" style="font-family:'Yeseva One', cursive; font-size:18px" class = "text-secondary">
                 <li>Najedź na zdjęcie.</li>
-                <li>Kliknij na zdjęcie.<br></li>  
-                <li>Wciśnij przycisk "m" na klawiaturze</li>     
-                <li>Wciśnij kombinację Ctrl+C</li>  
-                <li>Przeciągnij kość do miski<br></li>
-                <br>
-                <img id="kosc" src="../imgs/bone.png" draggable="true">          
+                <li>Kliknij na zdjęcie.<br></li>
+                <button type="button" class="btn btn-secondary btn-sm" id="klik2" onclick="wylacz()">Kliknij tutaj, aby wyłączyć efekt.</button><br>  
+                <li>Wciśnij przycisk "v" oraz "c" na klawiaturze</li>     
+                <li>Wciśnij kombinację Ctrl+O</li>  
+                <li>Przeciągnij kość do miski<br>
+                  <img id="kosc" src="../imgs/bone.png" draggable="true"> </li><br>
+                <li id="mouse">Najedź na napis</li>
+                <li>Zmień wielkość okna <br>
+                <!-- Ile razy zmiana -->
+                    <p style="font-family:'Bevan', cursive; font-size:10px; color: black;">Wielkość strony została zmieniona <b><span id="ileR">0</span></b> razy.</li></p>
+                <li><p id="klikklik"> Kliknij <code>tutaj</code> dwa razy.</p></li>
+                  <!-- Double click -->              
+                  <button type="button" class="btn btn-secondary btn-sm" id="klik" onclick="respond()">Kliknij tutaj, aby wyłączyć efekt.</button> <br>
+                  <p id="efekt"></p>
+                <li>     
+                    <!-- Zaznacz i wpisz -->            
+                    Zaznacz lub -- 10. Zescrolluj tekst:</li><br>
+                    <textarea cols="25" rows="3" id="Ciekawostka">Psy i ludzie mają ten sam rodzaj snu REM, więc psy mogą mieć sny. Ruchy, które pojawiają się podczas snu, są oznakami tego, że Twoje zwierzę śni.</textarea>
+                    <p id="informacja"></p>
+                <br>                         
             </ol>  
 
             <!-- Plik audio -->
             <audio id="meow" controls style="display:none">
               <source src="../mp3/meow.mp3">
             </audio>
-
-            <!-- Wyczyść -->
-            <div class="text-center" style="font-family:'Bevan', cursive; font-size:15px" >
-                <button class="btn btn-secondary btn-lg btn-block" style="font-size:10px" id="wyczysc" onclick=wyczysc();>Wyczyść</button>
-            </div> 
-            
-            <!-- Kotek -->            
-            <img src="../imgs/cat.gif" id="kotek" style="display:none;">
+                        
           </div>
         </div>      
-      </div>     
+      </div>   
+      
+      
     
       <footer class="footer-copyright text-center py-4">Źródło zdjęć
         <a href="https://www.deviantart.com/kristynakvapilova/gallery">Deviantart</a>

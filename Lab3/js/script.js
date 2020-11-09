@@ -13,7 +13,9 @@ img.addEventListener("mouseout", function() {
 /* Kliknięcie na pieski */
 
 var ile = 0;
-img.addEventListener("click", function szczeka() {
+img.addEventListener("click", szczeka);
+
+function szczeka() {
     document.getElementById("szczek").innerHTML += "Szczek!<br>"
     ile++;
     if  (ile == 10) {
@@ -21,7 +23,15 @@ img.addEventListener("click", function szczeka() {
         wyczysc();
         ile = 0;        
     }
-})
+}
+
+function wylacz() {
+    img.removeEventListener("click", szczeka);
+}
+
+function wyczysc() {
+    document.getElementById("szczek").innerHTML = "";
+}
 
 /* Zagraj dźwięk przy kliknięciu */
 
@@ -34,19 +44,11 @@ function mial(e) {
 	}
 }
 
-/* Kombinacja Ctrl + C */
+/* Kombinacja Ctrl + O */
 
-document.addEventListener("keydown", function(event) {
-    if (event.ctrlKey && event.key === 'c') {
-      alert("Skopiowane!");
-    }
+document.addEventListener("copy", function() {    
+      alert("Skopiowano element!");
 });
-
-/* Wyczyszczenie okna */
-
-function wyczysc() {
-    document.getElementById("szczek").innerHTML = "";
-}
 
 /* Przeciągnij kość */
 
@@ -60,7 +62,43 @@ document.addEventListener("drop", function () {
     document.getElementById("kosc").style = "display:none";
 })  
 
-console.info("Działam");
+/* Podkreślenie po najechaniu */
+
+document.getElementById("mouse").addEventListener("mouseenter", function() {
+    document.getElementById("mouse").style.textDecoration = "underline";
+});
+
+/* Zmiana wielkości okna */
+window.addEventListener("resize", zmienWielkosc);
+
+var x = 0;
+function zmienWielkosc() {
+  var txt = x += 1;
+  document.getElementById("ileR").innerHTML = txt;
+}
+
+/* Double click */
+
+var p = document.getElementById("klikklik");
+
+p.addEventListener("dblclick", doubleClick);
+
+function doubleClick() {
+    alert("Kliknięto dwa razy!");
+}
 
 
+function respond() {
+    p.removeEventListener("dblclick", doubleClick);    
+    document.getElementById("efekt").innerHTML = "Element został wyłączony!";   
+}
 
+/* Zaznaczanie tekstu i scrollowanie */
+
+document.getElementById("Ciekawostka").addEventListener("select", function() {
+    document.getElementById("informacja").innerHTML = "Zaznaczyłeś tekst!";
+});
+
+document.getElementById("Ciekawostka").addEventListener("scroll", function() {
+    document.getElementById("informacja").innerHTML = "Zescrollowałeś tekst!";
+});
