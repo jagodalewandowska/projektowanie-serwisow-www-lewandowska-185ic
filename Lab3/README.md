@@ -81,44 +81,60 @@
 ###
 </details>
 
-## Druga kolumna
+## Pies
 <details>
 <summary> [Rozwiń] </summary>  
 
 ##### Zawiera elementy:
-- Wyskakujące powiadomienie.  
-![alt text](https://i.imgur.com/u7jtxQI.png)![alt text](https://i.imgur.com/3pi0v1p.png)
+- moveover oraz moveout - zmiana zdjęcia  
+![alt text](https://i.imgur.com/nt4OKbs.png)
 
 ---
 ###
-- Zmiana przycisku w sytuacji wciśnięcia przycisku i po.  
-![alt text](https://i.imgur.com/exIPzj9.png)
-![alt text](https://i.imgur.com/RnKeEYT.png)![alt text](https://i.imgur.com/cqFrPVw.png)
+- click - kliknięcie na obiekt,  w przypadku zbyt dużej ilości kliknięć wymazanie tekstu. Dołączenie równiez przycisku wyłączającego EventListener.
+![alt text](https://i.imgur.com/uHS8QKZ.png)  
+![alt text](https://i.imgur.com/mh6LPLB.png)
 
 ---
 ###
-- Przesunięcie bloku.  
-![alt text](https://i.imgur.com/azqGBr9.png)![alt text](https://i.imgur.com/59Q6cq6.png)
+- keydown - Wciśnięcie przycisku m, aby odtworzyć dźwięk i wyświetlić zdjęcie.  
+![alt text](https://i.imgur.com/VBKqK5o.png)
 
 ---
 ###
-- Powiększanie tekstu.  
-![alt text](https://i.imgur.com/ZWcJPER.png)![alt text](https://i.imgur.com/MTFu4w8.png)
+- copy - Wciśnięcie kombinacji Ctrl+C, aby wyświetlić powiadomienie. 
+![alt text](https://i.imgur.com/S6XcqKq.png)
 
 ---
 ###
-- Otwarcie odnośnika do zewnętrznej strony w nowym oknie  
-![alt text](https://i.imgur.com/PoBihDU.png)![alt text](https://i.imgur.com/ulCXq0y.png)
+- mouseenter - Zmiana koloru w przypadku najechania na zdanie.  
+![alt text](https://i.imgur.com/4xCJlln.png) 
 
 ---
 ###
-- Pokazywanie adresu strony  
-![alt text](https://i.imgur.com/jZYAdDT.png)![alt text](https://i.imgur.com/MR1lVED.png)
+- drop - Zmiana obrazka po upuszczeniu obiektu.  
+![alt text](https://i.imgur.com/BkcQPJQ.png)
 
 ---
 ###
-- Otwieranie modali  
-![alt text](https://i.imgur.com/sVixdU8.png)![alt text](https://i.imgur.com/TImNFKl.png)
+- resize - Zmiana wielkości okna, licznik.  Wykorzystanie window.EventListener.  
+![alt text](https://i.imgur.com/Kx7jE0c.png)
+
+---
+###
+- dblclick - Podwójne kliknięcie na obszar tekstowy. Zawiera wykorzystanie RemoveEventListener.  
+![alt text](https://i.imgur.com/aFaxSAo.png)  
+![alt text](https://i.imgur.com/VHJ1PTj.png)
+
+---
+###
+- select - Zaznaczenie tekstu powoduje zmianę napisu.  
+![alt text](https://i.imgur.com/O5GAmZe.png)  
+
+---
+###
+- scroll - Zmiana tekstu podczas użycia scrolla w oknie.  
+![alt text](https://i.imgur.com/XNLt08Q.png)
 
 ---
 ###
