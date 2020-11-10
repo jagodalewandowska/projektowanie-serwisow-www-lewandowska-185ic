@@ -1,8 +1,3 @@
-var konsola = document.getElementById("konsola");
-konsola.addEventListener("click", function() {
-        window.open("https://github.com/kartofelek007/zadania-podstawy/tree/master/3-funkcje/1-zadania","_blank");
-})
-
 // Zad. 1
 
 function ileLiter(input) {
