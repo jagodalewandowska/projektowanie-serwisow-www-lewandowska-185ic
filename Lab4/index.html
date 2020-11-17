@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gra</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Tworzenie ramki, w której będzie gra -->
+        <div class="wrapper">
+        <!-- Poszczególne warstwy: 
+        - Canvas 1 -- Efekty przeskoczenia 
+        - Canvas 2 -- Kłody i żółwie
+        - Canvas 3 -- Postać 
+        - Canvas 4 -- Samochody, trawa
+        - Canvas 5 -->
+            <canvas id="canvas1"></canvas>
+            <canvas id="canvas2"></canvas>
+            <canvas id="canvas3"></canvas>
+            <canvas id="canvas4"></canvas>
+            <canvas id="canvas5"></canvas>
+        </div>
+        <script src="js/setup.js"></script>
+        <script src="js/frogger.js"></script>
+        <script src="js/particles.js"></script>
+        <script src="js/obstacles.js"></script>
+        <script src="js/utilities.js"></script>
+    </body>
+</html>
