@@ -367,6 +367,7 @@
 
 
 <details>
+<summary>Szczegóły</summary>
 
 # Lab 4
 ##### 
