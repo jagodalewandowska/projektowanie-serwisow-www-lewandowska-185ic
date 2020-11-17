@@ -43,4 +43,4 @@ Zawarte jest również w nim wykorzytanie **wykrywania kolizji**. W przypadku, k
 
 ### Zderzenie się z obiektem:
 
-![alt text]()
+![alt text](https://i.imgur.com/68ATUgA.gif)
