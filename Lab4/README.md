@@ -5,7 +5,7 @@
 ##### Wymagania dotyczące trzeciego zadania:
 ####
 
-![alt text](blob:https://imgur.com/33697471-22f2-4430-bc84-01a6943920a1)
+![alt text](https://i.imgur.com/FLsIlMd.png)
 
 
 # Zrzuty ekranów poszczególnych stron
