@@ -1,3 +1,8 @@
+body {
+  background: url('../imgs/starwars.png');
+  background-position: top;
+}
+
 .wrapper {
   border: 5px solid black;
   top: 50%;
