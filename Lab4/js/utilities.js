@@ -16,10 +16,10 @@ function animate() {
     handleParticles();
 
     /* Wywołanie funkcji rysującej postać */
-    frogger.draw();
+    yoda.draw();
 
     /* Wywołanie funkcji aktualizującej */
-    frogger.update();   
+    yoda.update();   
 
     /* Wywołanie zarządzania animacjami */
     handleObstacles();
@@ -28,7 +28,7 @@ function animate() {
     handleScoreBoard();
 
     /* Dodanie 4 warstwy z lśnieniem */
-    ctx4.drawImage(grass, 0, 0, canvas.width, canvas.height);
+    ctx4.drawImage(storm, 0, 0, canvas.width, canvas.height);
 
     /* Zmienianie ramki za każdym razem kiedy zadziała funkcja */
     frame++;
@@ -55,9 +55,9 @@ window.addEventListener('keydown', function(e) {
     39 -- strzałka w prawo
     40 -- strzałka w dół */
     if (keys[37] || keys[38] || keys[39] || keys[40]) {
-        frogger.jump();
+        yoda.jump();
         /* Kiedykolwiek postać będzie wykonywać ruch, ramka ustawiona jest po na 0 */
-        frogger.frameX = 0;
+        yoda.frameX = 0;
     }
 });
 
@@ -65,7 +65,7 @@ window.addEventListener('keydown', function(e) {
 window.addEventListener('keyup', function(e) {
     /* Usunięcie klawisza z tablicy, który nie jest już wciśnięty */
     delete keys[e.keyCode];
-    frogger.moving = false;
+    yoda.moving = false;
 });
 
 function scored() {
@@ -74,8 +74,8 @@ function scored() {
     /* Zwiększenie prędkości gry */
     gameSpeed += 0.05;
     /* Zresetowanie pozycji gracza */
-    frogger.x = canvas.width/2 - frogger.width/2;
-    frogger.y = canvas.height - frogger.height - 40;
+    yoda.x = canvas.width/2 - yoda.width/2;
+    yoda.y = canvas.height - yoda.height - 40;
 }
 
 /* Obliczanie wyniku */
@@ -111,8 +111,8 @@ function collision(first, second) {
 
 /* Reset gry */
 function resetGame() {
-    frogger.x = canvas.width/2 - frogger.width/2;
-    frogger.y = canvas.height - frogger.height - 40;
+    yoda.x = canvas.width/2 - yoda.width/2;
+    yoda.y = canvas.height - yoda.height - 40;
     score = 0;
     collisionsCount++;
     gameSpeed = 1;

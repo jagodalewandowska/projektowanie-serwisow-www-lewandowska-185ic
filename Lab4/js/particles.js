@@ -21,8 +21,8 @@ class Particle {
         ctx3.fillStyle = 'rgba(150,150,150,' + this.opacity + ')';
         /* Rozpoczęcie rysowania */
         ctx3.beginPath();
-        /* Przekazywanie argumentów, rysowanie koła */
-        ctx3.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        /* Przekazywanie argumentów, rysowanie koła, +20 aby wyrównać do środka */
+        ctx3.arc(this.x + 20, this.y + 20, this.radius, 0, Math.PI * 2);
         /* Wypełnienie kolorem */
         ctx3.fill();
         /* Koniec */
@@ -68,13 +68,13 @@ function handleParticles () {
     ruchu - i tylko wtedy jeśli są wciśnięte klawisze. <250 ponieważ sprawdza,
     czy postać znajduje się już na platformie. Aby gra na pewno działała płynnie 
     dodany jest warunek ograniczający wielkość tablicy efektów */
-    if (((keys[37] || keys[38] || keys[39] || keys[40])) && frogger.y > 250 && particlesArray.length < maxParticles + 10) {
+    if (((keys[37] || keys[38] || keys[39] || keys[40])) && yoda.y > 250 && particlesArray.length < maxParticles + 10) {
         /* Utworzenie pętli która będzie działać 10 razy */
         for (let i = 0; i < 10; i++) {
             /* Funkcja unshift bierze cokolwiek przekazane jest w nawiasach, 
             a następnie przekazuje to na sam początek tablicy którą ją wywołujemy.
             Przekazanie nowego efektu, a następnie uruchomienie go w konstruktorze */
-            particlesArray.unshift(new Particle(frogger.x, frogger.y))
+            particlesArray.unshift(new Particle(yoda.x, yoda.y))
         }
     }
 }

@@ -1,4 +1,4 @@
-class Frogger {
+class Yoda {
     /* Przypisanie wartości przy utworzeniu nowego obiektu */
     constructor() {
         /* Szerokość jednego obiektu z elementu arkusza sprite
@@ -80,15 +80,13 @@ class Frogger {
 
     /* Pojawienie się postaci na warstwie 3 */
     draw () {
-        /* Jakiego koloru jest postać */
-        ctx3.fillStyle = 'green';
         /* Rysowanie yody */
-        ctx3.drawImage(froggerSprite, this.frameX * this.spriteWidth, this.frameY * this.spriteHeight, this.spriteWidth, this.spriteHeight, this.x - 25, this.y - 25, this.width * 2, this.height * 2);
+        ctx3.drawImage(yodaSprite, this.frameX * this.spriteWidth, this.frameY * this.spriteHeight, this.spriteWidth, this.spriteHeight, this.x - 25, this.y - 25, this.width * 2, this.height * 2);
     }
 
     /* Metoda przejścia */
     jump() {
-        /* Animacja gdy yoda się nie rusza */
+        /* Animacja gdy yoda się rusza i nie */
        if (this.moving === false) this.frameX = 1;
        else if (this.frameX === 1) this.frameX = 0;
     }
@@ -96,4 +94,4 @@ class Frogger {
 
 /* Wywołanie konstruktora, aby utworzył nowy, pusty obiekt oraz
 wypełnienie go wartościami w nim zawartymi */
-const frogger = new Frogger();
+const yoda = new Yoda();

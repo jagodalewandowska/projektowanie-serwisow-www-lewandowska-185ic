@@ -79,38 +79,36 @@ const particlesArray = [];
 /* Ustawienie limitu efektów */
 const maxParticles = 300;
 
-/* Przechowuje efekty falowania wody */
-const ripplesArray = [];
+/* Przechowuje losowe pociski */
+const bulletsArray = [];
 
-/* Przechowuje losowe samochody */
-const carsArray = [];
+/* Przechowywanie platform i r2d2 */
+const platformsArray = [];
 
-/* Przechowywanie żółwi i kłód */
-const logsArray = [];
-
-/* Kiedy r2d2 jest bezpieczny */
+/* Kiedy yoda jest bezpieczny */
 let safe = false;
 
 /* Drugie tło */
 const background_lvl2 = new Image();
 background_lvl2.src = "./imgs/background_lvl2.png";
 
-const grass = new Image();
-grass.src = "./imgs/grass.png";
+const storm = new Image();
+storm.src = "./imgs/storm.png";
 
 const collisions = new Image();
 collisions.src = "./imgs/collisions.png";
 
-const turtle = new Image();
-turtle.src = "./imgs/turtles.png";
+const r2d2 = new Image();
+r2d2.src = "./imgs/r2d2.png";
 
-const log = new Image();
-log.src = "./imgs/log.png";
+const platforms = new Image();
+platforms.src = "./imgs/platforms.png";
 
-const car = new Image();
-car.src = './imgs/cars.png';
+const bullets = new Image();
+bullets.src = './imgs/bullets.png';
 
-let numberOfCars = 3;
+let numberOfbullets = 3;
+let numberOfr2d2 = 3;
 
-const froggerSprite = new Image();
-froggerSprite.src = './imgs/frog_spritesheet.png';
+const yodaSprite = new Image();
+yodaSprite.src = './imgs/yoda.png';
