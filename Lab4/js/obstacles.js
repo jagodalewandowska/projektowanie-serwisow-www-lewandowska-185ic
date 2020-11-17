@@ -83,7 +83,7 @@ function initObstacles() {
         /* Przekazywanie do nowego obiektu typu obstacle, tworzy nowy, pusty obiekt
         nadając poprzednie wartości. Wartość y to wysokość ramki odjąć jedno przejście
         a także różnica dla marginesu na dole. Trzecia wartość zmienia np. szerokość */
-        bulletsArray.push(new Obstacle(x, canvas.height - grid * 2 - 20, grid * 2, grid, 1, 'bullets'));
+        bulletsArray.push(new Obstacle(x, canvas.height - grid * 2 - 20, grid * 2, grid, -3, 'bullets'));
     }
 
     /* Druga linia - obiekty w przeciwnym kierunku */
@@ -91,21 +91,21 @@ function initObstacles() {
         /* Zachowanie odstępu */
         let x = i * 300;
         /* Przeciwny kierunek */
-        bulletsArray.push(new Obstacle(x, canvas.height - grid * 3 - 20, grid * 2, grid, -2, 'bullets'));
+        bulletsArray.push(new Obstacle(x, canvas.height - grid * 3 - 20, grid * 2, grid, 1, 'bullets'));
     }
 
     /* Trzecia linia */
     for (let i = 0; i < 2; i++) {
         /* Zachowanie odstępu */
         let x = i * 400;
-        bulletsArray.push(new Obstacle(x, canvas.height - grid * 4 - 20, grid * 2, grid, 2, 'bullets'));
+        bulletsArray.push(new Obstacle(x, canvas.height - grid * 4 - 20, grid * 2, grid, -1, 'bullets'));
     }
 
     /* Czwarta linia */
     for (let i = 0; i < 2; i++) {
         /* Zachowanie odstępu */
         let x = i * 400;
-        platformsArray.push(new Obstacle(x, canvas.height - grid * 5 - 20, grid * 2, grid, -2, 'platforms'));
+        platformsArray.push(new Obstacle(x, canvas.height - grid * 5 - 20, grid * 2, grid, -3, 'platforms'));
     }
 
     /* Piąta linia */
