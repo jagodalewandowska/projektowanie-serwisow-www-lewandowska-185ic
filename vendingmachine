@@ -1,0 +1,36 @@
+# vending machine
+input paymentMethod
+
+switch (paymentMethod):
+    case "card":
+        input sodaCode
+        if sodaCode != valid
+            message "invalid code"
+        else
+            if soda.prize equal to money
+                output soda
+            if soda.prize smaller than money
+                rest = money - sodaprize
+                output soda, rest
+            if soda.prize greater than money
+                message "too little"
+                break;
+        input money
+    
+else    
+    input sodaCode
+    if sodaCode != valid
+        message "invalid code"
+    else
+        if soda.prize equal to money
+            output soda
+        if soda.prize smaller than money
+            rest = money - sodaprize
+            output soda, rest
+        if soda.prize greater than money
+            message "too little"
+    
+
+
+
+	

@@ -373,7 +373,7 @@
 ##### 
 
 ####
-##### Wymagania dotyczące trzeciego zadania:
+##### Wymagania dotyczące czwartego zadania:
 ####
 
 ![alt text](https://i.imgur.com/FLsIlMd.png)
