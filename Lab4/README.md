@@ -13,7 +13,7 @@
 ### Strona główna
 #### Zawiera ona grę Star Wars - Uratuj Baby Yodę
 
-Gra jest pewną modyfikacji gry Frogger w innym uniwersum - z inną postacią główną. Do wykonania gry został wykorzystany HTML, JS - Vanilla oraz CSS oraz Bootstrap - do dodania panelu nawigacyjnego. 
+Gra jest pewną modyfikacji gry Frogger w innym uniwersum - z inną postacią główną. Do wykonania gry został wykorzystany HTML, JS - Vanilla oraz CSS oraz Bootstrap - do dodania panelu nawigacyjnego. Do utworzenia obrazków takich jak szturmowiec, r2d2, platforma, yoda czy pociski został użyty program Gimp.
 
 ![alt text](https://i.imgur.com/0ENquxZ.png)    
 
