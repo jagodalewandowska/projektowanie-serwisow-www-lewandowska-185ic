@@ -35,7 +35,12 @@ Zawarte jest również w nim wykorzytanie **wykrywania kolizji**. W przypadku, k
 
 ---
 
-### Zadania
-##### Zawiera listę oraz rozwiązane zadania w konsoli.
+## Mini podgląd gry  
 
-![alt text](https://i.imgur.com/vT6O0rk.gif)
+### Pomyślne przejście:
+
+![alt text](https://i.imgur.com/LnoKUBH.gif)  
+
+### Zderzenie się z obiektem:
+
+![alt text]()
