@@ -2,10 +2,12 @@
     "profile": [
         {
             "name": "Jagoda",
+            "github nickname": "jagodalewandowska",  
+            "age": 24,          
             "university": "AMW"
         }
     ],
-    
+
     "artists": [
         {
             "id": 1,
