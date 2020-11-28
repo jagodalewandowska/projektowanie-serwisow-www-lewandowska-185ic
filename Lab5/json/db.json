@@ -1,23 +1,15 @@
 {
-    "profile": [
-        {
-            "name": "Jagoda",
-            "github nickname": "jagodalewandowska",  
-            "age": 24,          
-            "university": "AMW"
-        }
-    ],
-
     "artists": [
         {
             "id": 1,
             "artist": "Queen",
             "albums": [
                 {
-                    "title": "A night at the Opera",
+                    "id": 11,
+                    "title": "A night at the Opera",                    
                     "year": 1975,
-                    "favourite song": "Bohemian Rhapsody",
-                    "charts when released": [
+                    "favourite": "Bohemian Rhapsody",
+                    "charts": [
                         {
                             "Australia": 1,
                             "UK": 1,
@@ -27,16 +19,18 @@
 
                 },       
                 {
+                    "id": 12,
                     "title": "A Day at the Races",
                     "year": 1976,
-                    "favourite song": "Somebody to Love",
-                    "charts when released": [
+                    "favourite": "Somebody to Love",
+                    "charts": [
                         {
                             "Australia": 8,
                             "UK": 1,
                             "Japan": 1
                         }
                     ]
+                    
                 }         
             ]
         },
@@ -45,24 +39,33 @@
             "artist": "ABBA",
             "albums": [
                 {
+                    "id": 21,
                     "title": "Arrival",
                     "year": 1976,
-                    "song reviews": [
+                    "favourite": "Dancing Queen",
+                    "ages": [
                         {
-                            "best": "Dancing Queen",
-                            "least favourite": "That's me"
+                            "Agnetha": 26,
+                            "Björn": 31,
+                            "Benny": 30,
+                            "Anni-Frid": 31
                         }
                     ]
                 },
                 {
+                    "id": 22,
                     "title": "Voulez-Vous",
-                    "year": 1976,
-                    "song reviews": [
+                    "year": 1979,
+                    "favourite": "Gimme! Gimme! Gimme!",
+                    "ages": [
                         {
-                            "best": "Gimme! Gimme! Gimme!",
-                            "least favourite": "None of them (:"
+                            "Agnetha": 29,
+                            "Björn": 34,
+                            "Benny": 33,
+                            "Anni-Frid": 34
                         }
                     ]
+
                 }
             ]
         }
@@ -70,8 +73,9 @@
 
     "instruments": [
         {
-            "id": 11,
+            "id": 1,
             "name": "violin",
+            "earlierst evidence": 1530,
             "construction elements": [
                 {
                     "upper half": "scroll, pegbox, neck, fingerboard",
@@ -80,8 +84,9 @@
             ]            
         },
         {
-            "id": 12,
-            "name": "piano",
+            "id": 2,
+            "name": "piano",            
+            "earlierst evidence": 1655,
             "construction elements": [
                 {
                     "upper": "frame, lid, front part, capo bar, damper, lid, back part, bridge, hitch pin, frame, sound board, string",
