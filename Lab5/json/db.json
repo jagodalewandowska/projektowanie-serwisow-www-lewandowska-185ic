@@ -1,375 +1,72 @@
 {
-    "collection name": "Zespoły, które lubię",
-    "made by": "Jagoda",
-    "date": "28/11/2020",
-    "artists" : [
+    "artists": [
         {
+            "id": 1,
             "artist": "Queen",
             "albums": [
                 {
                     "title": "A night at the Opera",
-                    "year": "1975",
-                    "songs": [
+                    "year": 1975,
+                    "favourite song": "Bohemian Rhapsody",
+                    "charts when released": [
                         {
-                            "title": "Death on Two Legs",
-                            "length": "3:44",
-                            "review": [
-                                {
-                                    "me": "9",
-                                    "mum": "8",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "Lazing on a Sunday Afternoon",
-                            "length": "1:07",  
-                            "review": [
-                                {
-                                    "me": "9",
-                                    "mum": "6",
-                                    "dad": "10"
-                                }
-                            ]                  
-                        },
-                        {
-                            "title": "I'm In Love With My Car",
-                            "length": "3:05",
-                            "review": [
-                                {
-                                    "me": "6",
-                                    "mum": "5",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "You're my best friend",
-                            "length": "2:51",
-                            "review": [
-                                {
-                                    "me": "9",
-                                    "mum": "6",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "'39",
-                            "length": "3:31",
-                            "review": [
-                                {
-                                    "me": "7",
-                                    "mum": "7",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "Sweet Lady",
-                            "length": "4:02",
-                            "review": [
-                                {
-                                    "me": "9",
-                                    "mum": "5",
-                                    "dad": "10"
-                                }
-                            ]                  
-                        },
-                        {
-                            "title": "The Prophet's Song",
-                            "length": "8:21",
-                            "review": [
-                                {
-                                    "me": "9",
-                                    "mum": "6",
-                                    "dad": "10"
-                                }
-                            ]                   
-                        },
-                        {
-                            "title": "Love of My Life",
-                            "length": "3:37",
-                            "review": [
-                                {
-                                    "me": "10",
-                                    "mum": "10",
-                                    "dad": "10"
-                                }
-                            ]                   
-                        },
-                        {
-                            "title": "Good Company",
-                            "length": "3:23",
-                            "review": [
-                                {
-                                    "me": "8",
-                                    "mum": "7",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "Bohemian Rhapsody",
-                            "length": "5:54",
-                            "review": [
-                                {
-                                    "me": "10",
-                                    "mum": "10",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "God Save The Queen",
-                            "length": "1:15",
-                            "review": [
-                                {
-                                    "me": "7",
-                                    "mum": "5",
-                                    "dad": "10"
-                                }
-                            ]                    
+                            "Australia": 1,
+                            "UK": 1,
+                            "Japan": 9
                         }
                     ]
-                },
+
+                },       
                 {
                     "title": "A Day at the Races",
-                    "year": "1976",
-                    "songs": [
+                    "year": 1976,
+                    "favourite song": "Somebody to Love",
+                    "charts when released": [
                         {
-                            "title": "Tie Your Mother Down",
-                            "length": "4:47",
-                            "review": [
-                                {
-                                    "me": "9",
-                                    "mum": "8",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "You Take My Breath Away",
-                            "length": "5:06",
-                            "review": [
-                                {
-                                    "me": "9",
-                                    "mum": "7",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "Long Away",
-                            "length": "3:33",
-                            "review": [
-                                {
-                                    "me": "9",
-                                    "mum": "9",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "The Millionaire Waltz",
-                            "length": "4:55",
-                            "review": [
-                                {
-                                    "me": "10",
-                                    "mum": "8",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "You and I",
-                            "length": "3:26",
-                            "review": [
-                                {
-                                    "me": "9",
-                                    "mum": "9",
-                                    "dad": "10"
-                                }
-                            ]                   
-                        },
-                        {
-                            "title": "Somebody to Love",
-                            "length": "4:56",
-                            "review": [
-                                {
-                                    "me": "10",
-                                    "mum": "8",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "White Man",
-                            "length": "4:58",
-                            "review": [
-                                {
-                                    "me": "7",
-                                    "mum": "7",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "Good Old-Fashioned Lover Boy",
-                            "length": "2:53",
-                            "review": [
-                                {
-                                    "me": "10",
-                                    "mum": "8",
-                                    "dad": "10"
-                                }
-                            ]                   
-                        },
-                        {
-                            "title": "Drowse",
-                            "length": "3:43",
-                            "review": [
-                                {
-                                    "me": "7",
-                                    "mum": "8",
-                                    "dad": "10"
-                                }
-                            ]                   
-                        },
-                        {
-                            "title": "Teo Torriatte (Let Us Cling Together)",
-                            "length": "5:56",
-                            "review": [
-                                {
-                                    "me": "7",
-                                    "mum": "7",
-                                    "dad": "9"
-                                }
-                            ]                    
+                            "Australia": 8,
+                            "UK": 1,
+                            "Japan": 1
                         }
                     ]
-                    
-                }
+                }         
             ]
         },
         {
+            "id": 2,
             "artist": "ABBA",
             "albums": [
                 {
                     "title": "Arrival",
-                    "year": "1976",
-                    "songs": [
+                    "year": 1976,
+                    "song reviews": [
                         {
-                            "title": "When I Kissed the Teacher",
-                            "length": "3:00",
-                            "review": [
-                                {
-                                    "me": "10",
-                                    "mum": "4",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "Dancing Queen",
-                            "length": "3:50",
-                            "review": [
-                                {
-                                    "me": "10",
-                                    "mum": "10",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "Dum Dum Diddle",
-                            "length": "2:50",
-                            "review": [
-                                {
-                                    "me": "7",
-                                    "mum": "6",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "My Love, My Life",
-                            "length": "3:52",
-                            "review": [
-                                {
-                                    "me": "10",
-                                    "mum": "8",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "Tiger",
-                            "length": "3:05",
-                            "review": [
-                                {
-                                    "me": "9",
-                                    "mum": "9",
-                                    "dad": "10"
-                                }
-                            ]                   
-                        },
-                        {
-                            "title": "Money, Money, Money",
-                            "length": "4:56",
-                            "review": [
-                                {
-                                    "me": "10",
-                                    "mum": "8",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "That's Me",
-                            "length": "3:15",
-                            "review": [
-                                {
-                                    "me": "7",
-                                    "mum": "7",
-                                    "dad": "10"
-                                }
-                            ]                    
-                        },
-                        {
-                            "title": "Why Did It Have to Be Me",
-                            "length": "3:20",
-                            "review": [
-                                {
-                                    "me": "10",
-                                    "mum": "8",
-                                    "dad": "10"
-                                }
-                            ]                   
-                        },
-                        {
-                            "title": "Knowing Me, Knowing You",
-                            "length": "2:55",
-                            "review": [
-                                {
-                                    "me": "10",
-                                    "mum": "5",
-                                    "dad": "10"
-                                }
-                            ]                   
-                        },
-                        {
-                            "title": "Arrival",
-                            "length": "3:00",
-                            "review": [
-                                {
-                                    "me": "7",
-                                    "mum": "7",
-                                    "dad": "9"
-                                }
-                            ]                    
+                            "best": "Dancing Queen",
+                            "least favourite": "That's me"
                         }
                     ]
+                },
+                {
+                    "title": "Voulez-Vous",
+                    "year": 1976,
+                    "song reviews": [
+                        {
+                            "best": "Gimme! Gimme! Gimme!",
+                            "least favourite": "None of them (:"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+
+    "instruments": [
+        {
+            "id": 1,
+            "name": "violin",
+            "construction elements": [
+                {
+                    "upper half": "scroll, pegbox, neck, fingerboard",
+                    "waist and lower half": "bridge, f-holes, fine tuners, tailpiece, chinrest"
                 }
             ]
         }
