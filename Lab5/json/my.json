@@ -1,249 +1,374 @@
 {
-    "artist": "Queen",
-    "albums": [
+    "artists" : [
         {
-            "title": "A night at the Opera",
-            "year": "1975",
-            "songs": [
+            "artist": "Queen",
+            "albums": [
                 {
-                    "title": "Death on Two Legs",
-                    "length": "3:44",
-                    "review": [
+                    "title": "A night at the Opera",
+                    "year": "1975",
+                    "songs": [
                         {
-                            "me": "9",
-                            "mum": "8",
-                            "dad": "10"
+                            "title": "Death on Two Legs",
+                            "length": "3:44",
+                            "review": [
+                                {
+                                    "me": "9",
+                                    "mum": "8",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
+                        {
+                            "title": "Lazing on a Sunday Afternoon",
+                            "length": "1:07",  
+                            "review": [
+                                {
+                                    "me": "9",
+                                    "mum": "6",
+                                    "dad": "10"
+                                }
+                            ]                  
+                        },
+                        {
+                            "title": "I'm In Love With My Car",
+                            "length": "3:05",
+                            "review": [
+                                {
+                                    "me": "6",
+                                    "mum": "5",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
+                        {
+                            "title": "You're my best friend",
+                            "length": "2:51",
+                            "review": [
+                                {
+                                    "me": "9",
+                                    "mum": "6",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
+                        {
+                            "title": "'39",
+                            "length": "3:31",
+                            "review": [
+                                {
+                                    "me": "7",
+                                    "mum": "7",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
+                        {
+                            "title": "Sweet Lady",
+                            "length": "4:02",
+                            "review": [
+                                {
+                                    "me": "9",
+                                    "mum": "5",
+                                    "dad": "10"
+                                }
+                            ]                  
+                        },
+                        {
+                            "title": "The Prophet's Song",
+                            "length": "8:21",
+                            "review": [
+                                {
+                                    "me": "9",
+                                    "mum": "6",
+                                    "dad": "10"
+                                }
+                            ]                   
+                        },
+                        {
+                            "title": "Love of My Life",
+                            "length": "3:37",
+                            "review": [
+                                {
+                                    "me": "10",
+                                    "mum": "10",
+                                    "dad": "10"
+                                }
+                            ]                   
+                        },
+                        {
+                            "title": "Good Company",
+                            "length": "3:23",
+                            "review": [
+                                {
+                                    "me": "8",
+                                    "mum": "7",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
+                        {
+                            "title": "Bohemian Rhapsody",
+                            "length": "5:54",
+                            "review": [
+                                {
+                                    "me": "10",
+                                    "mum": "10",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
+                        {
+                            "title": "God Save The Queen",
+                            "length": "1:15",
+                            "review": [
+                                {
+                                    "me": "7",
+                                    "mum": "5",
+                                    "dad": "10"
+                                }
+                            ]                    
                         }
-                    ]                    
+                    ]
                 },
                 {
-                    "title": "Lazing on a Sunday Afternoon",
-                    "length": "1:07",  
-                    "review": [
+                    "title": "A Day at the Races",
+                    "year": "1976",
+                    "songs": [
                         {
-                            "me": "9",
-                            "mum": "6",
-                            "dad": "10"
-                        }
-                    ]                  
-                },
-                {
-                    "title": "I'm In Love With My Car",
-                    "length": "3:05",
-                    "review": [
+                            "title": "Tie Your Mother Down",
+                            "length": "4:47",
+                            "review": [
+                                {
+                                    "me": "9",
+                                    "mum": "8",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
                         {
-                            "me": "6",
-                            "mum": "5",
-                            "dad": "10"
-                        }
-                    ]                    
-                },
-                {
-                    "title": "You're my best friend",
-                    "length": "2:51",
-                    "review": [
+                            "title": "You Take My Breath Away",
+                            "length": "5:06",
+                            "review": [
+                                {
+                                    "me": "9",
+                                    "mum": "7",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
                         {
-                            "me": "9",
-                            "mum": "6",
-                            "dad": "10"
-                        }
-                    ]                    
-                },
-                {
-                    "title": "'39",
-                    "length": "3:31",
-                    "review": [
+                            "title": "Long Away",
+                            "length": "3:33",
+                            "review": [
+                                {
+                                    "me": "9",
+                                    "mum": "9",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
                         {
-                            "me": "7",
-                            "mum": "7",
-                            "dad": "10"
-                        }
-                    ]                    
-                },
-                {
-                    "title": "Sweet Lady",
-                    "length": "4:02",
-                    "review": [
+                            "title": "The Millionaire Waltz",
+                            "length": "4:55",
+                            "review": [
+                                {
+                                    "me": "10",
+                                    "mum": "8",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
                         {
-                            "me": "9",
-                            "mum": "5",
-                            "dad": "10"
-                        }
-                    ]                  
-                },
-                {
-                    "title": "The Prophet's Song",
-                    "length": "8:21",
-                    "review": [
+                            "title": "You and I",
+                            "length": "3:26",
+                            "review": [
+                                {
+                                    "me": "9",
+                                    "mum": "9",
+                                    "dad": "10"
+                                }
+                            ]                   
+                        },
                         {
-                            "me": "9",
-                            "mum": "6",
-                            "dad": "10"
-                        }
-                    ]                   
-                },
-                {
-                    "title": "Love of My Life",
-                    "length": "3:37",
-                    "review": [
+                            "title": "Somebody to Love",
+                            "length": "4:56",
+                            "review": [
+                                {
+                                    "me": "10",
+                                    "mum": "8",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
                         {
-                            "me": "10",
-                            "mum": "10",
-                            "dad": "10"
-                        }
-                    ]                   
-                },
-                {
-                    "title": "Good Company",
-                    "length": "3:23",
-                    "review": [
+                            "title": "White Man",
+                            "length": "4:58",
+                            "review": [
+                                {
+                                    "me": "7",
+                                    "mum": "7",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
                         {
-                            "me": "8",
-                            "mum": "7",
-                            "dad": "10"
-                        }
-                    ]                    
-                },
-                {
-                    "title": "Bohemian Rhapsody",
-                    "length": "5:54",
-                    "review": [
+                            "title": "Good Old-Fashioned Lover Boy",
+                            "length": "2:53",
+                            "review": [
+                                {
+                                    "me": "10",
+                                    "mum": "8",
+                                    "dad": "10"
+                                }
+                            ]                   
+                        },
                         {
-                            "me": "10",
-                            "mum": "10",
-                            "dad": "10"
-                        }
-                    ]                    
-                },
-                {
-                    "title": "God Save The Queen",
-                    "length": "1:15",
-                    "review": [
+                            "title": "Drowse",
+                            "length": "3:43",
+                            "review": [
+                                {
+                                    "me": "7",
+                                    "mum": "8",
+                                    "dad": "10"
+                                }
+                            ]                   
+                        },
                         {
-                            "me": "7",
-                            "mum": "5",
-                            "dad": "10"
+                            "title": "Teo Torriatte (Let Us Cling Together)",
+                            "length": "5:56",
+                            "review": [
+                                {
+                                    "me": "7",
+                                    "mum": "7",
+                                    "dad": "9"
+                                }
+                            ]                    
                         }
-                    ]                    
+                    ]
+                    
                 }
             ]
         },
         {
-            "title": "A Day at the Races",
-            "year": "1976",
-            "songs": [
+            "artist": "ABBA",
+            "albums": [
                 {
-                    "title": "Tie Your Mother Down",
-                    "length": "4:47",
-                    "review": [
+                    "title": "Arrival",
+                    "year": "1976",
+                    "songs": [
                         {
-                            "me": "9",
-                            "mum": "8",
-                            "dad": "10"
-                        }
-                    ]                    
-                },
-                {
-                    "title": "You Take My Breath Away",
-                    "length": "5:06",
-                    "review": [
+                            "title": "When I Kissed the Teacher",
+                            "length": "3:00",
+                            "review": [
+                                {
+                                    "me": "10",
+                                    "mum": "4",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
                         {
-                            "me": "9",
-                            "mum": "7",
-                            "dad": "10"
-                        }
-                    ]                    
-                },
-                {
-                    "title": "Long Away",
-                    "length": "3:33",
-                    "review": [
+                            "title": "Dancing Queen",
+                            "length": "3:50",
+                            "review": [
+                                {
+                                    "me": "10",
+                                    "mum": "10",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
                         {
-                            "me": "9",
-                            "mum": "9",
-                            "dad": "10"
-                        }
-                    ]                    
-                },
-                {
-                    "title": "The Millionaire Waltz",
-                    "length": "4:55",
-                    "review": [
+                            "title": "Dum Dum Diddle",
+                            "length": "2:50",
+                            "review": [
+                                {
+                                    "me": "7",
+                                    "mum": "6",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
                         {
-                            "me": "10",
-                            "mum": "8",
-                            "dad": "10"
-                        }
-                    ]                    
-                },
-                {
-                    "title": "You and I",
-                    "length": "3:26",
-                    "review": [
+                            "title": "My Love, My Life",
+                            "length": "3:52",
+                            "review": [
+                                {
+                                    "me": "10",
+                                    "mum": "8",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
                         {
-                            "me": "9",
-                            "mum": "9",
-                            "dad": "10"
-                        }
-                    ]                   
-                },
-                {
-                    "title": "Somebody to Love",
-                    "length": "4:56",
-                    "review": [
+                            "title": "Tiger",
+                            "length": "3:05",
+                            "review": [
+                                {
+                                    "me": "9",
+                                    "mum": "9",
+                                    "dad": "10"
+                                }
+                            ]                   
+                        },
                         {
-                            "me": "10",
-                            "mum": "8",
-                            "dad": "10"
-                        }
-                    ]                    
-                },
-                {
-                    "title": "White Man",
-                    "length": "4:58",
-                    "review": [
+                            "title": "Money, Money, Money",
+                            "length": "4:56",
+                            "review": [
+                                {
+                                    "me": "10",
+                                    "mum": "8",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
                         {
-                            "me": "7",
-                            "mum": "7",
-                            "dad": "10"
-                        }
-                    ]                    
-                },
-                {
-                    "title": "Good Old-Fashioned Lover Boy",
-                    "length": "2:53",
-                    "review": [
+                            "title": "That's Me",
+                            "length": "3:15",
+                            "review": [
+                                {
+                                    "me": "7",
+                                    "mum": "7",
+                                    "dad": "10"
+                                }
+                            ]                    
+                        },
                         {
-                            "me": "10",
-                            "mum": "8",
-                            "dad": "10"
-                        }
-                    ]                   
-                },
-                {
-                    "title": "Drowse",
-                    "length": "3:43",
-                    "review": [
+                            "title": "Why Did It Have to Be Me",
+                            "length": "3:20",
+                            "review": [
+                                {
+                                    "me": "10",
+                                    "mum": "8",
+                                    "dad": "10"
+                                }
+                            ]                   
+                        },
                         {
-                            "me": "7",
-                            "mum": "8",
-                            "dad": "10"
-                        }
-                    ]                   
-                },
-                {
-                    "title": "Teo Torriatte (Let Us Cling Together)",
-                    "length": "5:56",
-                    "review": [
+                            "title": "Knowing Me, Knowing You",
+                            "length": "2:55",
+                            "review": [
+                                {
+                                    "me": "10",
+                                    "mum": "5",
+                                    "dad": "10"
+                                }
+                            ]                   
+                        },
                         {
-                            "me": "7",
-                            "mum": "7",
-                            "dad": "9"
+                            "title": "Arrival",
+                            "length": "3:00",
+                            "review": [
+                                {
+                                    "me": "7",
+                                    "mum": "7",
+                                    "dad": "9"
+                                }
+                            ]                    
                         }
-                    ]                    
+                    ]
                 }
             ]
-            
         }
     ]
 }
