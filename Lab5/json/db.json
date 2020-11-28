@@ -68,6 +68,16 @@
                     "upper half": "scroll, pegbox, neck, fingerboard",
                     "waist and lower half": "bridge, f-holes, fine tuners, tailpiece, chinrest"
                 }
+            ]            
+        },
+        {
+            "id": 2,
+            "name": "piano",
+            "construction elements": [
+                {
+                    "upper": "frame, lid, front part, capo bar, damper, lid, back part, bridge, hitch pin, frame, sound board, string",
+                    "lower": "damper mechanism, sostenuto rail, pedal mechanism, rods, pedals"
+                }
             ]
         }
     ]
