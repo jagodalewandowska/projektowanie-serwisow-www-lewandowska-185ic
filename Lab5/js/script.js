@@ -46,7 +46,7 @@
         console.log(" ");
         console.log(" ");
         console.log("2 -- Obiekt Promise: ");
-        console.log("---- Task 1: ");
+        console.log("---- Task 2.1: ");
         
         let title = response.albums[0].title;
         let age = response.albums[0].ages[0].Benny;
@@ -74,6 +74,7 @@
         
     })
 
+    
     fetch("https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/1")
     .then(response => response.json())
     .then(response => {
@@ -84,7 +85,7 @@
         console.log("Album: ", album);
         console.log("Lead singer: ", var1); 
 
-        function newObject(id) {
+        function newObject(id) {            
             return new Promise((resolve, reject) => {
                 if (response.albums[0].id === id){
                     resolve({"Nazwa Albumu": album, "Główny Wokalista": var1})
@@ -93,6 +94,8 @@
                 }
             });
         }    
+
+        
         newObject(11)
             .then(data => console.log("Nowy obiekt", data))
             .catch(error => console.log("Błąd!", error))
