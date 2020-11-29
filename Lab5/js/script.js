@@ -15,7 +15,7 @@ $.getJSON( "https://my-json-server.typicode.com/jagodalewandowska/my-json/artist
         console.log("1 -- Funkcja zwrotna - Callback");
         console.log("---- Task 1: ");
         console.log("Rok wydania płyty: " + year + ", wiek Agnethy w roku wydania płyty: " + age);
-        console.log("Wyliczony urodzenia piosenkarki: " + res);
+        console.log("Wyliczony rok urodzenia piosenkarki: " + res);
     });    
 
     // TASK 1.2 -- Stworzenia łańcucha znakowego
@@ -33,6 +33,27 @@ $.getJSON( "https://my-json-server.typicode.com/jagodalewandowska/my-json/artist
         console.log(res);
     });
 
+    // TASK 2.1 -- Wykonanie działania na liczbach
 
+    function getYear(id) {
+        return new Promise((resolve, reject) => {
+            if (data.albums[0].id === id){
+                age = data.albums[0].ages[0].Benny;
+                year = data.albums[1].year;
+                const yearOfBirth = year - age;
+                resolve(yearOfBirth);
+            } else {
+                reject('Nie znaleziono artykułu o takim ID.');
+            }
+        });
+    }
 
+    console.log(" ");
+    console.log("2 -- Obiekt Promise: ");
+    console.log("---- Task 1: ");
+
+    getYear(21)
+    .then(data => console.log("Rok urodzenia artysty:", data))
+    .catch(error => console.log("Błąd!", error))
+    .finally(() => console.log('Koniec pobierania roku artysty.'));
  });
