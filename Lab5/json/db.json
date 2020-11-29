@@ -15,8 +15,15 @@
                             "UK": 1,
                             "Japan": 9
                         }
-                    ]
-
+                    ],
+                    "singers": [
+                        {
+                            "first": "Freddie Mercury",
+                            "second": "Brian May",
+                            "third": "Roger Taylor",
+                            "fourth": "John Deacon" 
+                        }
+                    ]        
                 },       
                 {
                     "id": 12,
@@ -29,8 +36,15 @@
                             "UK": 1,
                             "Japan": 1
                         }
-                    ]
-                    
+                    ],
+                    "singers": [
+                        {
+                            "first": "Freddie Mercury",
+                            "second": "Brian May",
+                            "third": "Roger Taylor",
+                            "fourth": "John Deacon" 
+                        }
+                    ]                    
                 }         
             ]
         },
@@ -65,7 +79,6 @@
                             "Anni-Frid": 34
                         }
                     ]
-
                 }
             ]
         }
@@ -94,5 +107,5 @@
                 }
             ]
         }
-    ],
+    ]
 }
