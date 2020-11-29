@@ -13,7 +13,7 @@
 
         calculateYear(function(res) {
             console.log("1 -- Funkcja zwrotna - Callback");
-            console.log("---- Task 1: ");
+            console.log("---- Task 1.1: ");
             console.log("Rok wydania płyty: " + year + ", wiek Agnethy w roku wydania płyty: " + age);
             console.log("Wyliczony rok urodzenia piosenkarki: " + res);
         });    
@@ -30,85 +30,96 @@
         }
 
         getSong(function(res){
-            console.log("---- Task 2: ");
+            console.log("---- Task 1.2: ");
             console.log(res);
         });
     });
+
+    // --------------------------------------------------------------------------------------------------------------------------
 
     /* 2 -- Obiekt promise */
 
     // TASK 2.1 -- Wykonanie działania na liczbach    
     // Pobranie metodą fetch 
 
-    fetch("https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/2")
-    .then(response => response.json())
-    .then(response => {
-        console.log(" ");
-        console.log(" ");
-        console.log("2 -- Obiekt Promise: ");
-        console.log("---- Task 2.1: ");
-        
-        let title = response.albums[0].title;
-        let age = response.albums[0].ages[0].Benny;
-        let year = response.albums[1].year;
+    function getYear(id) {
+        return new Promise((resolve, reject) => {
+            if (id == 21) {
+                fetch("https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/2")
+                    .then(response => response.json())
+                    .then(response => {
+                        console.log(" ");
+                        console.log(" ");
+                        console.log("2 -- Obiekt Promise: ");
+                        console.log("---- Task 2.1: ");
+                        
+                        let title = response.albums[0].title;
+                        let age = response.albums[0].ages[0].Benny;
+                        let year = response.albums[1].year;
 
-        console.log("Nazwa albumu: ", title);
-        console.log("Rok wydania płyty: ", year);
-        console.log("Wiek: ", age);        
+                        console.log("Nazwa albumu: ", title);
+                        console.log("Rok wydania płyty: ", year);
+                        console.log("Wiek: ", age)  
 
-        function getYear(id) {
-            return new Promise((resolve, reject) => {
-                if (response.albums[0].id === id){
-                    const yearOfBirth = year - age;
-                    resolve(yearOfBirth);
-                } else {
-                    reject('Nie znaleziono artykułu o takim ID.');
-                }
-            });
-        }
+                        function calculateYear() {
+                            let yearOfBirth = year - age;
+                            return yearOfBirth;
+                        }
+                        resolve(calculateYear());                        
+                    })     
+            } else {
+                reject('Nie znaleziono artykułu o takim ID.');
+            }
+        });
+    }    
     
-        getYear(21)
-            .then(data => console.log("Rok urodzenia Benny'ego:", data))
-            .catch(error => console.log("Błąd!", error))
-            .finally(() => console.log("Został obliczony rok urodzenia artysty."))
-        
-    })
+    getYear(21)
+        .then(data => console.log("Rok urodzenia Benny'ego:", data))
+        .catch(error => console.log("Błąd!", error))
+        .finally(() => console.log("Został obliczony rok urodzenia artysty."))
+
+    // --------------------------------------------------------------------------------------------------------------------------
+
+    // TASK 2.2 -- Tworzenie nowego obiektu 
+    // Pobranie metodą fetch 
+
+    function newObject(id) {            
+        return new Promise((resolve, reject) => {
+            if (id === 11){
+                fetch("https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/1")
+                .then(response => response.json())
+                .then(response => {
+                    console.log("---- Task 2.2: ");
+                    let var1 = response.albums[0].singers[0].first;  
+                    let album = response.albums[0].title;
+            
+                    console.log("Album: ", album);
+                    console.log("Lead singer: ", var1); 
+
+                    function makeANewObject(){
+                        return ({"Nazwa Albumu": album, "Główny Wokalista": var1});
+                    }
+                    resolve(makeANewObject());
+                })
+                
+            } else {
+                reject("Nieprawidłowe ID.");
+            }
+        });
+    }
+    
+    newObject(11)
+        .then(data => console.log("Nowy obiekt", data))
+        .catch(error => console.log("Błąd!", error))
+        .finally(() => console.log("Nowy obiekt utworzony pomyślnie!"))
 
     
-    fetch("https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/1")
-    .then(response => response.json())
-    .then(response => {
-        console.log("---- Task 2: ");
-        let var1 = response.albums[0].singers[0].first;  
-        let album = response.albums[0].title;
-
-        console.log("Album: ", album);
-        console.log("Lead singer: ", var1); 
-
-        function newObject(id) {            
-            return new Promise((resolve, reject) => {
-                if (response.albums[0].id === id){
-                    resolve({"Nazwa Albumu": album, "Główny Wokalista": var1})
-                } else {
-                    reject("Nieprawidłowe ID.");
-                }
-            });
-        }    
-
-        
-        newObject(11)
-            .then(data => console.log("Nowy obiekt", data))
-            .catch(error => console.log("Błąd!", error))
-            .finally(() => console.log("Nowy obiekt utworzony pomyślnie!"))
-    })
+    // --------------------------------------------------------------------------------------------------------------------------
 
 
-
-
-    
     /* 3 -- async/await + fetch */
-    /* 
-    // Task 3.1
+    
+    // Task 3.1 -- pobieranie metodą async/await
     
     let url_artists = 'https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/2'; 
 
@@ -118,44 +129,107 @@
         if (response.ok) { // if HTTP-status is 200-299
         console.log(" ");
         console.log("3 -- async/await + fetch ");
-        console.log("---- Task 3: ");
+        console.log("---- Task 3.1: ");
 
         console.log("Status = ", response.status);
         
-        // get the response body (the method explained below)
+        // response body
         let json_obj = await response.json();
-        let age1 = json_obj.albums[0].ages[0].Benny;
-        let year1 = json_obj.albums[1].year;
+        let age_b = json_obj.albums[0].ages[0].Björn;
+        let year_b = json_obj.albums[1].year;
 
-        console.log("Wiek: ", age1);
-        console.log("Rok wydania płyty: ", year1);
+        console.log("Wiek: ", age_b);
+        console.log("Rok wydania płyty: ", year_b);
 
-        } 
-        else {
-            console.log("HTTP-Error: " + response.status);
-        }
+        // Obliczanie roku urodzenia      
 
         function getYear1(id) {
             return new Promise((resolve, reject) => {
                 if (id === 21){
-                    const yearOfBirth1 = year1 - age1;
+                    const yearOfBirth1 = year_b - age_b;
                     resolve(yearOfBirth1);
                 } else {
                     reject('Nie znaleziono artykułu o takim ID.');
                 }
             });
         }
-    
+
         getYear1(21)
             .then(data => console.log("Rok urodzenia artysty:", data))
             .catch(error => console.log("Błąd!", error))
             .finally(() => console.log('Koniec pobierania roku artysty.'))
 
+        } 
+        else {
+            console.log("HTTP-Error: " + response.status);
+        }        
     }
 
     // Wywołanie metody fetch
-
     getAgeAndYear(url_artists);
 
-    // Obliczanie roku urodzenia
-    */
+    // --------------------------------------------------------------------------------------------------------------------------
+
+    // 3.2 -- Tworzenie nowego obiektu
+
+    let url_queen = 'https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/1'; 
+
+    async function getAlbum(url) {
+        let response = await fetch(url);    
+
+        if (response.ok) { // if HTTP-status is 200-299
+        console.log(" ");
+        console.log("3 -- async/await + fetch ");
+        console.log("---- Task 3.2: ");
+
+        console.log("Status = ", response.status);
+        
+        // response body
+        let obj = await response.json();
+        let album1 = obj.albums[0].title;
+        let album2 = obj.albums[1].title;
+
+        console.log(album1);
+        console.log(album2);
+
+        // Tworzenie obiektu z albumami   
+
+        function albumy(id) {
+            return new Promise((resolve, reject) => {
+                if (id === 1){                    
+                    function makeAlbum(){
+                        return ({"Pierwszy album": album1, "Drugi album": album2});
+                    }
+                    resolve(makeAlbum());
+                } else {
+                    reject('Nie znaleziono artykułu o takim ID.');
+                }
+            });
+        }
+
+        albumy(1)
+            .then(data => console.log("Albumy:", data))
+            .catch(error => console.log("Błąd!", error))
+            .finally(() => console.log('Koniec pobierania.'))
+
+        } 
+        else {
+            console.log("HTTP-Error: " + response.status);
+        }        
+    }
+
+    // Wywołanie metody fetch
+    getAlbum(url_queen);
+
+    
+    // --------------------------------------------------------------------------------------------------------------------------
+
+    // 4 -- Zapytania AJAX
+
+    // --- 4.1 - Pobieranie zasobów i dzialanie na tych zasobach
+
+    
+
+
+    
+    
