@@ -228,7 +228,7 @@ Wynik:
 
 - ### Zadanie 4.2
 
-Zadanie polega na tym samym, a w efekcie końcowym ma zostać otrzymany nowy obiekt. Utworzyłam funkcję o nazwie newObject4, który zwraca pierwszą i drugą piosenkę. W konsoli wyświetlone są również wartości pobrane.
+Zadanie polega na tym samym, a na koniec ma zostać otrzymany nowy obiekt. Utworzyłam funkcję o nazwie newObject4, który zwraca pierwszą i drugą piosenkę. W konsoli wyświetlone są również wartości pobrane.
 
 1. Dla id = 1;
 
@@ -284,7 +284,7 @@ Dla niepoprawnej wartości ID:
 
 - ### Zadanie 5.2
 
-Tworzenie nowego obiektu za pomocą wysyłania żądania metodą fetch. W efekcie końcowym zwracany jest obiekt, który zawiera w sobie wartość "artist" dla danego id, oraz wartość favourite, czyli ulubioną piosenkę z danego albumu.
+Tworzenie nowego obiektu za pomocą wysyłania żądania metodą fetch. Zwracany jest obiekt, który zawiera w sobie wartość "artist" dla danego id, oraz wartość favourite, czyli ulubioną piosenkę z danego albumu.
 
 ```
 function newObject5(var1, var2){
