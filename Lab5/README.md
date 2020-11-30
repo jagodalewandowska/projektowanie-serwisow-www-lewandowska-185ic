@@ -16,7 +16,7 @@
 ### Strona główna
 #### Strona główna zawiera listę z przyciskami, dzięki którym wywoływane są odpowiednie polecenia w konsoli. W nagłówku, jak i stopce znajduje się odnośnik do mojego Githuba. Zółty przycisk pozwala wyczyścić konsolę w każdym momencie korzystania ze strony.
 
-![alt text](https://i.imgur.com/6zyC0GF.png)    
+![alt text](https://i.imgur.com/YhE8n4U.png)    
 
 
 ### Wykonanie kolejno polecenia z zadania
