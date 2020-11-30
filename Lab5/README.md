@@ -217,18 +217,22 @@ Zadanie polega na tym samym, a w efekcie końcowym ma zostać otrzymany nowy obi
 
 ![alt text](https://i.imgur.com/jNqdHNI.png)  
 
+Dla błędnych wartości:
+
+![alt text](https://i.imgur.com/sgIUpdU.png)
+
 Błąd **onerror** zostanie wywołany w przypadku kiedy nie zostanie nawiązane połaczenie, pn. brak internetu.
 
 ## Metoda fetch
 
-- ### 5.1
+- ### Zadanie 5.1
 
 *pobierz dwa różnych zasoby liczbowe i napisz funkcję wykonującą wybrane działanie na tych liczbach* - za pomocą metody fetch  
 
 
 ---
 
-Metoda fetch została już użyta w poprzednich przykładach, dlatego teraz wykorzystana zostanie bez używania obiektu Promise. Aby wychwycić błąd i poinformować o nim zostanie użyta funkcja **catch**, jesli jednak wszystko przebiegnie pomyślnie a id będą się zgadzały to wykonana zostanie funkcja **then**.
+Metoda fetch została już użyta w poprzednich przykładach, dlatego teraz wykorzystana zostanie bez używania obiektu Promise. Aby wychwycić błąd i poinformować o nim zostanie użyta funkcja **catch**, jesli jednak wszystko przebiegnie pomyślnie, a id będą się zgadzały to wykonana zostanie funkcja **then**.
 
 Dla poprawnych wartości id przy wywoływaniu funkcji:
 
@@ -242,7 +246,40 @@ Dla poprawnych wartości id przy wywoływaniu funkcji:
 
 Dla niepoprawnej wartości ID:
 
-![alt text](https://i.imgur.com/9kzh6HH.png)
+![alt text](https://i.imgur.com/9kzh6HH.png)  
+
+
+- ### Zadanie 5.2
+
+Tworzenie nowego obiektu za pomocą wysyłania żądania metodą fetch. Wefekcie końcowym zwracany jest obiekt, który zawiera w sobie wartość "artist" dla danego id, oraz wartość favourite, czyli ulubioną piosenkę z danego albumu.
+
+Dla poprawnych wartości id przy wywoływaniu
+
+1. Dla id = 1
+
+![alt text](https://i.imgur.com/QXETXG4.png)
+
+2. Dla id = 2
+
+![alt text](https://i.imgur.com/fXZ6W50.png)
+
+Jesli podane id nie jest prawidłowe:
+
+![alt text](https://i.imgur.com/NIiPGa8.png)
+
+## Biblioteka axios
+
+- ### Zadanie 6.1
+
+Dla poprawnych wartości id przy wywoływaniu
+
+1. Dla id = 1
+
+![alt text](https://i.imgur.com/aV7CLeo.png)
+
+2. Dla id = 2
+
+![alt text](https://i.imgur.com/tIz7aXC.png)
 
 
 
