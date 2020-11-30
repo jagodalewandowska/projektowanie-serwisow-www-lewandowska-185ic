@@ -193,12 +193,12 @@ Na początku funkcji zad41 ustawiana jest wartość url, a następnie tworzone j
     xhr.send();
     xhr.onload = function() { 
 
-        ... kod, który sięwykona przy poprawnym wykonaniu żądania ...
+        ... kod, który się wykona przy poprawnym wykonaniu żądania ...
     }
 
     xhr.onerror = function() {
             
-        ... co się wydarzy podczas błędu w wysyłaniu żądania ...
+        ... co się wydarzy podczas przerwania ...
 
     }
 
@@ -284,7 +284,7 @@ Dla niepoprawnej wartości ID:
 
 - ### Zadanie 5.2
 
-Tworzenie nowego obiektu za pomocą wysyłania żądania metodą fetch. Wefekcie końcowym zwracany jest obiekt, który zawiera w sobie wartość "artist" dla danego id, oraz wartość favourite, czyli ulubioną piosenkę z danego albumu.
+Tworzenie nowego obiektu za pomocą wysyłania żądania metodą fetch. W efekcie końcowym zwracany jest obiekt, który zawiera w sobie wartość "artist" dla danego id, oraz wartość favourite, czyli ulubioną piosenkę z danego albumu.
 
 ```
 function newObject5(var1, var2){
