@@ -477,7 +477,7 @@
         console.log("---- Task 5.2: ");
         // wywołanie funkcji, dwa przykłady
         zad52(1);
-        zad52(222);
+        zad52(2);
     })
 
     // --------------------------------------------------------------------------------------------------------------------------
@@ -492,7 +492,7 @@
 
     function zad61(id){
         // dostęp do json za pomocą axios w zależności od podanego id na wejściu
-        axios.get(`https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/${id}`)
+        axios.get(`https://my-json-server.typicode.com/jagodalewandowska/my-json${id}`)
         .then(function (response) {
 
             // pobranie wartości

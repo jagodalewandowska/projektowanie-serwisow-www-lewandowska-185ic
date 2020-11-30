@@ -181,7 +181,9 @@ W przypadku, kiedy ID nie jest poprawne, nie jest możliwe wysłanie żądania m
 
 
 ---
-Na początku funkcji zad41 ustawiana jest wartość url, a następnie tworzone jest nowe zapytanie XMLHttpRequest. Wykorzystywana jest do pobrania metoda GET, a typ odpowiedzi to json - taki, jak obiekt. 
+Za pomocą AJAX pobierane są dane z serwera za pomocą żądań HTTP. Jednocześnie manipulowany jest model DOM tak, aby odświeżyć dane.
+
+Na początku funkcji zad41 ustawiana jest wartość url, a następnie tworzone jest nowe zapytanie XMLHttpRequest. Wykorzystywany jest do pobrania typ połączenia GET, a typ odpowiedzi to json - taki, jak obiekt. 
 
 Przy załadowaniu **onload** dodałam zmienną get, która będzie używana by przekazywać pobierane wartości, zamiast wcześniej użytych np. response, czy data. Następnie przejście do wypisywania wartości i wyników w konsoli. Wykorzystujędo tego wcześniej utworzoną funkcję addYearAndChart.
 
@@ -232,7 +234,7 @@ Błąd **onerror** zostanie wywołany w przypadku kiedy nie zostanie nawiązane 
 
 ---
 
-Metoda fetch została już użyta w poprzednich przykładach, dlatego teraz wykorzystana zostanie bez używania obiektu Promise. Aby wychwycić błąd i poinformować o nim zostanie użyta funkcja **catch**, jesli jednak wszystko przebiegnie pomyślnie, a id będą się zgadzały to wykonana zostanie funkcja **then**.
+Metoda fetch została już użyta w poprzednich przykładach, dlatego teraz wykorzystany zostanie interfejs bez używania obiektu Promise. Aby wychwycić błąd i poinformować o nim zostanie użyta funkcja **catch**, jesli jednak wszystko przebiegnie pomyślnie, a id będą się zgadzały to wykonana zostanie funkcja **then**.
 
 Dla poprawnych wartości id przy wywoływaniu funkcji:
 
@@ -269,7 +271,15 @@ Jesli podane id nie jest prawidłowe:
 
 ## Biblioteka axios
 
-- ### Zadanie 6.1
+- ### Zadanie 6.1 
+
+Pobranie danych, a następnie wykonaniu na nim operacji arytmetycznych. W tym przypadku wartości id oraz year zostaną przemnożone. Żądanie wysłane jest za pomocą 
+
+```
+... axios.get('link') ...
+```
+
+a także możliwe jest zastosowanie funkcji then, w przypadku otrzymania odpowiedzi, a także error, w przypadku niepowodzenia. Można sprawdzić id, a także co ma zostać wyświetlone w przypadku innego błędu. 
 
 Dla poprawnych wartości id przy wywoływaniu
 
@@ -281,7 +291,13 @@ Dla poprawnych wartości id przy wywoływaniu
 
 ![alt text](https://i.imgur.com/tIz7aXC.png)
 
+W przypadku błędnego id:
 
+![alt text](https://i.imgur.com/MoZCT9T.png)
+
+W przypadku błędnego adresu:
+
+![alt text](https://i.imgur.com/AWBSjh0.png)
 
 
 
