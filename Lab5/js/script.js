@@ -35,13 +35,13 @@
     btn2.addEventListener("click", function(){
         $.getJSON("https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/2", function(data) {           
             
-        function getSong(fn) {
+            function getSong(fn) {
                 // przypisanie wartości
                 let artist = data.artist;
-                let  album = data.albums[0].title;
-                let  song = data.albums[0].favourite;
+                let album = data.albums[0].title;
+                let song = data.albums[0].favourite;
 
-                // utworzenie nowej zmiennej text która zawiera ciąg łańcuchowy
+                // utworzenie nowej zmiennej text która zawiera łańcuch znakowy
                 const text = `Nazwa zespołu to ${artist}, album to ${album}, ulubiona piosenka to ${song}.`;
                 fn(text);
             }

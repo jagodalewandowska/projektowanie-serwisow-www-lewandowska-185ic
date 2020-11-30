@@ -80,15 +80,30 @@ Zadaniem było pobranie danych zagnieżdżonych, a następnie wykonanie operacji
 
 ---
 
-Do zadania wykorzystana została ta sama metoda getJSON. W funkcji zwrotnej przypisywane są do wartości, a następnie tworzony jest łańcuch znakowy stworzony z nazwy artysty, albumu oraz piosenki. Są one w różnych poziomach zagnieżdżenia (fragment kodu wyżej).
+Do zadania wykorzystana została ta sama metoda getJSON. W funkcji zwrotnej przypisywane są do wartości, a następnie tworzony jest łańcuch znakowy stworzony z nazwy artysty, albumu oraz piosenki. Są one na różnych poziomach zagnieżdżenia (fragment kodu wyżej).
 
 ```
 `Nazwa zespołu to ${artist}, album to ${album}, ulubiona piosenka to ${song}.`
 ```
 
-![alt text](https://i.imgur.com/H8eClWH.png)
+Wynik działania kodu:
+
+![alt text](https://i.imgur.com/H8eClWH.png)  
+
+## 2. Obiekt Promise
+
+*Wykorzystaj obiekt Promise do pobrania dwóch różnych zasobów liczbowych i napisz funkcję wykonującą wybrane działanie na tych liczbach.* 
 
 
+---
+Za pomocą obiektu Promise możliwe jest wykorzystanie funkcji resolve oraz reject. W przypadku dobrze wykonanego kodu (w moim przypadku kiedy id jest poprawne), wysyłane zostaje żądanie za pomocą metody fetch. Następnie przypisane zostają wartości do zmiennych. Dla pewności wyświetlane są wartości pobrane, by sprawdzić czy znajduje się teraz w dobrym miejscu w obiekcie JSON. Na koniec zwrócona zostaje wartość wykonanej operacji odejmowania dzięki użyciu **resolve**. 
+
+W przypadku, kiedy id jest niepoprawne zwracana jest wiadomość "Niepoprawne ID", przy użyciu **reject**
+
+Przy wciśnięciu przycisku zostaje wywołana funkcja getYear dla id równemu 21. W przypadku, kiedy:
+- obietnica jest rozwiązana pomyślnie lub nie - wykonana jest metoda **then**, która podaje rok urodzenia;
+- reakcja na negatywną odpowiedź to **catch**, dzięki której dodany jest tekst kiedy istnieje błąd
+- przy zakończeniu wykonywania Promise zawsze wykonywana jest opcja **finally** bez względu na to, rozwiązanie obietnicy zaszło lub nie
 
 
 
