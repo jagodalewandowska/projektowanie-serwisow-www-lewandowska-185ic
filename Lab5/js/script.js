@@ -96,7 +96,7 @@
                     })                 
             } else {
                 // kiedy id nie jest prawidłowe
-                reject('Nie znaleziono artykułu o takim ID.');
+                reject("Niepoprawne ID.");
             }
         });
     }
@@ -105,12 +105,12 @@
     btn3.addEventListener("click", function(){    
         // wywołanie funkcji z id = 21    
         getYear(21)
-            // poprawny wynik
+            // reakcja na obietnicę
             .then(data => console.log("Rok urodzenia Benny'ego:", data))
             // jeśli istnieje błąd
             .catch(error => console.log("Błąd! - ", error))
             // zakończenie zadania
-            .finally(() => console.log("Został obliczony rok urodzenia artysty."))
+            .finally(() => console.log("Zakończono."))
     })
 
         
@@ -162,7 +162,7 @@
     btn4.addEventListener("click", function(){    
         // wywołanie funkcji z id = 11    
         newObject(11)
-            // poprawny wynik
+            // reakcja na obietnicę
             .then(data => console.log("Nowy obiekt", data))
             // jeśli istnieje błąd
             .catch(error => console.log("Błąd! - ", error))

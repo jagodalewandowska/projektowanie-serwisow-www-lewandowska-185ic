@@ -92,18 +92,41 @@ Wynik działania kodu:
 
 ## 2. Obiekt Promise
 
+- ### Zadanie 2.1
+
 *Wykorzystaj obiekt Promise do pobrania dwóch różnych zasobów liczbowych i napisz funkcję wykonującą wybrane działanie na tych liczbach.* 
 
 
 ---
 Za pomocą obiektu Promise możliwe jest wykorzystanie funkcji resolve oraz reject. W przypadku dobrze wykonanego kodu (w moim przypadku kiedy id jest poprawne), wysyłane zostaje żądanie za pomocą metody fetch. Następnie przypisane zostają wartości do zmiennych. Dla pewności wyświetlane są wartości pobrane, by sprawdzić czy znajduje się teraz w dobrym miejscu w obiekcie JSON. Na koniec zwrócona zostaje wartość wykonanej operacji odejmowania dzięki użyciu **resolve**. 
 
+![alt text](https://i.imgur.com/eRrbZD1.png)
+
 W przypadku, kiedy id jest niepoprawne zwracana jest wiadomość "Niepoprawne ID", przy użyciu **reject**
 
 Przy wciśnięciu przycisku zostaje wywołana funkcja getYear dla id równemu 21. W przypadku, kiedy:
-- obietnica jest rozwiązana pomyślnie lub nie - wykonana jest metoda **then**, która podaje rok urodzenia;
-- reakcja na negatywną odpowiedź to **catch**, dzięki której dodany jest tekst kiedy istnieje błąd
-- przy zakończeniu wykonywania Promise zawsze wykonywana jest opcja **finally** bez względu na to, rozwiązanie obietnicy zaszło lub nie
+- obietnica jest rozwiązana pomyślnie lub nie - wykonana jest metoda **then**, która podaje rok urodzenia. 
+- reakcja na negatywną odpowiedź to **catch**, dzięki której dodany jest tekst kiedy istnieje błąd. Dla mojego przypadku dodaje wiadomość "Błąd! -"
+- przy zakończeniu wykonywania Promise zawsze wykonywana jest opcja **finally** bez względu na to, rozwiązanie obietnicy zaszło lub nie. W moim przypadku jest to informacja "Zakończono".
+
+
+- ### Zadanie 2.2
+
+*Wykorzystaj obiekt Promise do pobrania dwóch różnych dowolnych zasobów i napisz funkcję tworzącą z nich nowy obiekt.* 
+
+
+---
+
+Zadanie różni się tym, że w efekcie końcowym powstaje nowy obiekt. Funkcja tworzenia obiektu znajduje się poza funkcją zawierającą obiekt Promise. Przyporządkowuje ona wprowadzone wartości pod "Nazwa albumu" oraz "Główny wokalista". Za pomocą **resolve** zostaje ona wywoływania przy spełnieniu obietnicy, wykorzystując pobrane parametry za pomocą metody fetch.
+
+```
+function makeANewObject(album, var1){
+        return ({"Nazwa Albumu": album, "Główny Wokalista": var1});
+    }
+```
+
+Na koniec zostaje wyświetlony obiekt dzięki funkcji **then**, jednocześnie w przypadku błędu wykorzystany jest **catch** oraz na zakończenie **finally**.
+
 
 
 
