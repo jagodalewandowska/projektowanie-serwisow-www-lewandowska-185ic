@@ -185,6 +185,19 @@ Za pomocą AJAX pobierane są dane z serwera za pomocą żądań HTTP. Jednocze�
 
 Na początku funkcji zad41 ustawiana jest wartość url, a następnie tworzone jest nowe zapytanie XMLHttpRequest. Wykorzystywany jest do pobrania typ połączenia GET, a typ odpowiedzi to json - taki, jak obiekt. 
 
+```
+    let url = `. . .`;
+    let xhr = new XMLHttpRequest();
+    xhr.open('GET', url);
+    xhr.responseType = 'json';
+    xhr.send();
+    xhr.onload = function() { 
+
+        ...
+    }
+
+```
+
 Przy załadowaniu **onload** dodałam zmienną get, która będzie używana by przekazywać pobierane wartości, zamiast wcześniej użytych np. response, czy data. Następnie przejście do wypisywania wartości i wyników w konsoli. Wykorzystujędo tego wcześniej utworzoną funkcję addYearAndChart.
 
 1. Dla wartości id = 1:
@@ -211,12 +224,6 @@ Wynik:
 
 Zadanie polega na tym samym, a w efekcie końcowym ma zostać otrzymany nowy obiekt. Utworzyłam funkcję o nazwie newObject4, który zwraca pierwszą i drugą piosenkę. W konsoli wyświetlone są również wartości pobrane.
 
-```
-function newObject4(var1, var2){
-        return ({"Pierwsza piosenka": var1, "Druga piosenka": var2});
-    }
-```
-
 1. Dla id = 1;
 
 ![alt text](https://i.imgur.com/978Z7TC.png)  
@@ -241,6 +248,18 @@ Błąd **onerror** zostanie wywołany w przypadku kiedy nie zostanie nawiązane 
 ---
 
 Metoda fetch została już użyta w poprzednich przykładach, dlatego teraz wykorzystany zostanie interfejs bez używania obiektu Promise. Aby wychwycić błąd i poinformować o nim zostanie użyta funkcja **catch**, jesli jednak wszystko przebiegnie pomyślnie, a id będą się zgadzały to wykonana zostanie funkcja **then**.
+
+```
+fetch( . . . )
+                .then(response => response.json())
+                .then(response => { 
+
+                    ...
+
+                }
+
+                .catch ( ... co się wydarzy podczas wyłapania błędu ... ))
+```
 
 Dla poprawnych wartości id przy wywoływaniu funkcji:
 
