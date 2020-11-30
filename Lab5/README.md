@@ -21,4 +21,9 @@
 ![alt text](https://i.imgur.com/6zyC0GF.png)    
 
 
-#### 
+### Wykonanie kolejno polecenia z zadania
+
+#### W celu użycia utworzonego przeze mnie obiektu json, użyłam strony na której znajdowały się wymienione w przykładzie obiekty users. Po dodaniu do swojego repozytorium taki plik jest automatycznie dostępny do użytku, dlatego ze względu na posiadanie swojego repozytorium prywatnego musiałam ten obiekt dodać w nowym - [my-json](https://github.com/jagodalewandowska/my-json).
+
+#### 1. Funkcja zwrotna (callback)
+
