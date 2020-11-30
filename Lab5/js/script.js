@@ -187,7 +187,7 @@
                 resolve(yearOfBirth1);
             } else {
                 // jeśli id nie jest prawidlowe
-                reject('Nie znaleziono artykułu o takim ID.');
+                reject("Niepoprawne ID.");
             }
         })
     }
@@ -217,11 +217,11 @@
                     console.log("Rok wydania płyty: ", year_b);
                     console.log("Rok urodzenia artysty: ", data);
             
-            }
-            else {
-                // w przypadku brak odpowiedzi
-                console.log("HTTP-Error: " + response.status);
-            }   
+                }
+                else {
+                    // w przypadku brak odpowiedzi
+                    console.log("HTTP-Error: " + response.status);
+                }   
         } catch(error) {
             // w przypadku błędu
             console.error(error);
@@ -236,7 +236,7 @@
     let btn5 = document.getElementById("btn5");
     btn5.addEventListener("click", function(){
         // wywołanie funkcji
-        getAgeAndYear(21);       
+        getAgeAndYear(26);       
     })
     
 
@@ -252,7 +252,7 @@
                 resolve(zad32);
             } else {
                 // w przypadku niepowodzenia
-                reject('Nie znaleziono artykułu o takim ID.');
+                reject("Niepowodzenie");
             }
         })
     }
@@ -301,7 +301,7 @@
         console.log("---- Task 3.2: ");
 
         // wywoływanie
-        getAlbum(1);
+        getAlbum(212);
         getAlbum(2);
     })
 

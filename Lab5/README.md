@@ -106,9 +106,11 @@ W przypadku, kiedy id jest niepoprawne zwracana jest wiadomość "Niepoprawne ID
 
 Przy wciśnięciu przycisku zostaje wywołana funkcja getYear dla id równemu 21. W przypadku, kiedy:
 1. obietnica jest rozwiązana pomyślnie lub nie - wykonana jest metoda **then**, która podaje rok urodzenia. 
-2. reakcja na negatywną odpowiedź to **catch**, dzięki której dodany jest tekst kiedy istnieje błąd. Dla mojego przypadku dodaje wiadomość "Błąd! -"
-3. przy zakończeniu wykonywania Promise zawsze wykonywana jest opcja **finally** bez względu na to, rozwiązanie obietnicy zaszło lub nie. W moim przypadku jest to informacja "Zakończono".
+2. reakcja na negatywną odpowiedź to **catch**, dzięki której dodany jest tekst kiedy istnieje błąd. Dla mojego przypadku dodaje wiadomość "Błąd! -" 
 
+![alt text](https://i.imgur.com/iAuU1Qe.png)
+
+3. przy zakończeniu wykonywania Promise zawsze wykonywana jest opcja **finally** bez względu na to, rozwiązanie obietnicy zaszło lub nie. W moim przypadku jest to informacja "Zakończono".
 
 - ### Zadanie 2.2
 
@@ -130,6 +132,50 @@ Na koniec zostaje wyświetlony obiekt dzięki funkcji **then**, jednocześnie w 
 ![alt text](https://i.imgur.com/u24Ym8h.png)
 
 ## 3. async/await + fetch
+
+- ### Zadanie 3.1
+
+*Wykorzystaj obiekt Promise do pobrania dwóch różnych zasobów liczbowych i napisz funkcję wykonującą wybrane działanie na tych liczbach* - wykorzystując async, await oraz fetch.  
+
+
+---
+Utworzone zostały dwie funkcje. Pierwsza z nich, getYear1, zawiera obiekt Promise, w którym jeśli spełniona zostanie obietnica kiedy ID jest prawidłowe, **resolve** zwraca wynik odejmowania. W przeciwym razie **reject** informuje o niepoprawnym ID.
+
+Funkcja getAgeAndYear za pomocą polecenia fetch wysyła żądanie do podanego adresu url. Async oznacza, że ta funkcja zawsze zwróci obietnicę. Await może zostać użyte tylko w przypadku, kiedy znajduje się wewnątrz funkcji async. Możliwe w tym przypadku jest użycie **try**, **catch** oraz **finally**. 
+
+Podczas wykonywania **try** sprawdzane jest połączenie, czy status jest pomiędzy 200-299. W przypadku braku odpowiedzi wyświetlany jest HTTP-Error.
+Następuje przypisanie wartości i wyświetlenie wartości oraz wyniku. Wynik otrzymany jest dzięki użyciu zmiennej data - w której oczekiwanie na to, aż funkcja zostanie wykonana. 
+
+**catch** - w przypadku błędu zostanie on wychwycony i zwrócony.
+**finally** - wykonywane zawsze, bez względu na wynik.
+
+Przycisk wywołuje funkcję zakładając, że id jest równe 21. Wynik operacji:
+
+![alt text](https://i.imgur.com/F5pgYXT.png)  
+
+W rzypadku, kiedy id jest niepoprawne (dla przykładu 26), ponieważ zakładam, że może mieć ono wartość tutaj jedynie 21 oraz 22:
+
+![alt text](https://i.imgur.com/fCzxBsP.png)  
+
+- ### Zadanie 3.2
+
+Zadanie wygląda tak samo, jednak w tym przypadku efektem końcowym ma być utworzenie nowego obiektu. W przypadku rozwiązania obietnicy zwracany jest argument zad32.
+
+Wynikiem działania kodu jest wyświetlanie albumów. Dla id równego 1, w którym znajdują się albumy zespoły Queen:
+
+![alt text](https://i.imgur.com/NTYLjA7.png)  
+
+Dla id równego 2, dla zespołu ABBA:
+
+![alt text](https://i.imgur.com/TP9VBFT.png)  
+
+W przypadku, kiedy ID nie jest poprawne, nie jest możliwe wysłanie żądania metodą fetch, gdyż taki adres nie istnieje:
+
+![alt text](https://i.imgur.com/FBEHnCz.png)
+
+
+
+
 
 
 
