@@ -273,7 +273,15 @@ Jesli podane id nie jest prawidłowe:
 
 - ### Zadanie 6.1 
 
-Pobranie danych, a następnie wykonaniu na nim operacji arytmetycznych. W tym przypadku wartości id oraz year zostaną przemnożone. Żądanie wysłane jest za pomocą 
+Pobranie danych, a następnie wykonaniu na nim operacji arytmetycznych. W tym przypadku wartości id oraz year zostaną przemnożone. 
+
+```
+function multiply(var1, var2) {
+        return var1 * var2;
+    }
+```
+
+Żądanie wysłane jest za pomocą 
 
 ```
 ... axios.get('link') ...
@@ -302,6 +310,12 @@ W przypadku błędnego adresu:
 - ### Zadanie 6.2
 
 Zadanie polega na wykorzystaniu biblioteki axios, tym razem by utworzyć nowy obiekt. Tworzę nową funkcję newObject6 przypisującą parametry na wejściu do odpowiednio Album oraz Rok Wydania.
+
+```
+ function newObject6(var1, var2) {
+        return ({"Album": var1, "Rok wydania": var2});
+     }
+```
 
 Dla poprawnych wartości id przy wywoływaniu
 
