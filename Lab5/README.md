@@ -183,13 +183,13 @@ W przypadku, kiedy ID nie jest poprawne, nie jest możliwe wysłanie żądania m
 ---
 Na początku funkcji zad41 ustawiana jest wartość url, a następnie tworzone jest nowe zapytanie XMLHttpRequest. Wykorzystywana jest do pobrania metoda GET, a typ odpowiedzi to json - taki, jak obiekt. 
 
-Przy załadowaniu **onload** dodałam zmienną get, która będzie używana by przekazywać pobierane wartości, zamiast wcześniej użytych np. response, czy data. Następnie przejście do wypisywania wartości i wyników w konsoli.
+Przy załadowaniu **onload** dodałam zmienną get, która będzie używana by przekazywać pobierane wartości, zamiast wcześniej użytych np. response, czy data. Następnie przejście do wypisywania wartości i wyników w konsoli. Wykorzystujędo tego wcześniej utworzoną funkcję addYearAndChart.
 
-Dla wartości id = 1:
+1. Dla wartości id = 1:
 
 ![alt text](https://i.imgur.com/Pcfbpoq.png)  
 
-Dla wartości id = 2:
+2. Dla wartości id = 2:
 
 ![alt text](https://i.imgur.com/Oxmk170.png)
 
@@ -204,6 +204,47 @@ Rónież dla przykładu usunęłam fragment w url:
 Wynik:
 
 ![alt text](https://i.imgur.com/5Nzfqrp.png)
+
+- ### Zadanie 4.2
+
+Zadanie polega na tym samym, a w efekcie końcowym ma zostać otrzymany nowy obiekt. Utworzyłam funkcję o nazwie newObject4, który zwraca pierwszą i drugą piosenkę. W konsoli wyświetlone są również wartości pobrane.
+
+1. Dla id = 1;
+
+![alt text](https://i.imgur.com/978Z7TC.png)  
+
+2. Dla id = 2;
+
+![alt text](https://i.imgur.com/jNqdHNI.png)  
+
+Błąd **onerror** zostanie wywołany w przypadku kiedy nie zostanie nawiązane połaczenie, pn. brak internetu.
+
+## Metoda fetch
+
+- ### 5.1
+
+*pobierz dwa różnych zasoby liczbowe i napisz funkcję wykonującą wybrane działanie na tych liczbach* - za pomocą metody fetch  
+
+
+---
+
+Metoda fetch została już użyta w poprzednich przykładach, dlatego teraz wykorzystana zostanie bez używania obiektu Promise. Aby wychwycić błąd i poinformować o nim zostanie użyta funkcja **catch**, jesli jednak wszystko przebiegnie pomyślnie a id będą się zgadzały to wykonana zostanie funkcja **then**.
+
+Dla poprawnych wartości id przy wywoływaniu funkcji:
+
+1. Dla id = 1
+
+![alt text](https://i.imgur.com/28CqVEh.png)  
+
+2. Dla id = 2
+
+![alt text](https://i.imgur.com/XcQsUtd.png)  
+
+Dla niepoprawnej wartości ID:
+
+![alt text](https://i.imgur.com/9kzh6HH.png)
+
+
 
 
 

@@ -422,7 +422,7 @@
                 .catch(error => console.log("Błąd!", error))
         } else {
             // kiedy id niepoprawne
-            console.log("Niepoprawne ID!");
+            console.log("Niepoprawne ID");
         }
     }
 
@@ -435,7 +435,7 @@
 
         // wywoływanie
         zad51(1);
-        zad51(2);
+        zad51(222);
     })
 
     // --------------------------------------------------------------------------------------------------------------------------
