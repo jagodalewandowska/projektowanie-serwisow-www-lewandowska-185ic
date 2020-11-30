@@ -105,9 +105,9 @@ Za pomocą obiektu Promise możliwe jest wykorzystanie funkcji resolve oraz reje
 W przypadku, kiedy id jest niepoprawne zwracana jest wiadomość "Niepoprawne ID", przy użyciu **reject**
 
 Przy wciśnięciu przycisku zostaje wywołana funkcja getYear dla id równemu 21. W przypadku, kiedy:
-- obietnica jest rozwiązana pomyślnie lub nie - wykonana jest metoda **then**, która podaje rok urodzenia. 
-- reakcja na negatywną odpowiedź to **catch**, dzięki której dodany jest tekst kiedy istnieje błąd. Dla mojego przypadku dodaje wiadomość "Błąd! -"
-- przy zakończeniu wykonywania Promise zawsze wykonywana jest opcja **finally** bez względu na to, rozwiązanie obietnicy zaszło lub nie. W moim przypadku jest to informacja "Zakończono".
+1. obietnica jest rozwiązana pomyślnie lub nie - wykonana jest metoda **then**, która podaje rok urodzenia. 
+2. reakcja na negatywną odpowiedź to **catch**, dzięki której dodany jest tekst kiedy istnieje błąd. Dla mojego przypadku dodaje wiadomość "Błąd! -"
+3. przy zakończeniu wykonywania Promise zawsze wykonywana jest opcja **finally** bez względu na to, rozwiązanie obietnicy zaszło lub nie. W moim przypadku jest to informacja "Zakończono".
 
 
 - ### Zadanie 2.2
