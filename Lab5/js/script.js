@@ -338,7 +338,7 @@
             console.log("Suma: ", addYearAndChart(year, chart));
         }
 
-        // wyłapywanie błędu
+        // wyłapywanie błędu, kiedy np. nie ma połączenia internetowego
         xhr.onerror = function() {
             console.log("Błąd!");
         }

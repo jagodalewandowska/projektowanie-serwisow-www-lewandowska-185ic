@@ -171,7 +171,42 @@ Dla id równego 2, dla zespołu ABBA:
 
 W przypadku, kiedy ID nie jest poprawne, nie jest możliwe wysłanie żądania metodą fetch, gdyż taki adres nie istnieje:
 
-![alt text](https://i.imgur.com/FBEHnCz.png)
+![alt text](https://i.imgur.com/FBEHnCz.png)  
+
+## Zapytania AJAX
+
+- ### Zadanie 4.1
+
+*pobierz dwa różnych zasoby liczbowe i napisz funkcję wykonującą wybrane działanie na tych liczbach* - wykorzystując zapytania AJAX, polecenie xhr, XMLHttpRequest, ...  
+
+
+---
+Na początku funkcji zad41 ustawiana jest wartość url, a następnie tworzone jest nowe zapytanie XMLHttpRequest. Wykorzystywana jest do pobrania metoda GET, a typ odpowiedzi to json - taki, jak obiekt. 
+
+Przy załadowaniu **onload** dodałam zmienną get, która będzie używana by przekazywać pobierane wartości, zamiast wcześniej użytych np. response, czy data. Następnie przejście do wypisywania wartości i wyników w konsoli.
+
+Dla wartości id = 1:
+
+![alt text](https://i.imgur.com/Pcfbpoq.png)  
+
+Dla wartości id = 2:
+
+![alt text](https://i.imgur.com/Oxmk170.png)
+
+W przypadku wyłapania błędu następuje kolejny krok **onerror**, który informuje o tym, że nie została wykonana operacja onload. Wykonany on zostanie, kiedy nie zostanie poprawnie załadowany xhr.
+
+Rónież dla przykładu usunęłam fragment w url:
+
+```
+... /artists/ ...
+```
+
+Wynik:
+
+![alt text](https://i.imgur.com/5Nzfqrp.png)
+
+
+
 
 
 
