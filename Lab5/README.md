@@ -250,15 +250,15 @@ Błąd **onerror** zostanie wywołany w przypadku kiedy nie zostanie nawiązane 
 Metoda fetch została już użyta w poprzednich przykładach, dlatego teraz wykorzystany zostanie interfejs bez używania obiektu Promise. Aby wychwycić błąd i poinformować o nim zostanie użyta funkcja **catch**, jesli jednak wszystko przebiegnie pomyślnie, a id będą się zgadzały to wykonana zostanie funkcja **then**.
 
 ```
-fetch( . . . )
-                .then(response => response.json())
-                .then(response => { 
+fetch( nasze url )
+    .then(response => response.json())
+    .then(response => { 
 
-                    ...
+        ...
 
-                }
+    }
 
-                .catch ( ... co się wydarzy podczas wyłapania błędu ... ))
+    .catch ( ... co się wydarzy podczas wyłapania błędu ... ))
 ```
 
 Dla poprawnych wartości id przy wywoływaniu funkcji:
@@ -304,18 +304,17 @@ Jesli podane id nie jest prawidłowe:
 
 - ### Zadanie 6.1 
 
-Pobranie danych, a następnie wykonaniu na nim operacji arytmetycznych. W tym przypadku wartości id oraz year zostaną przemnożone. 
+Pobranie danych, a następnie wykonaniu na nim operacji arytmetycznych. W tym przypadku wartości id oraz year zostaną przemnożone. Żądanie wysłane jest za pomocą:
 
 ```
-function multiply(var1, var2) {
-        return var1 * var2;
-    }
-```
+axios.get(... url ...)
+        .then (function (response) {
 
-Żądanie wysłane jest za pomocą 
+                ...
 
-```
-... axios.get('link') ...
+        })
+        .catch(... w przypadku wyłapania błędu ...));
+
 ```
 
 Możliwe jest zastosowanie funkcji **then**, w przypadku otrzymania odpowiedzi, a także **error**, w przypadku niepowodzenia. Można sprawdzić id, a także co ma zostać wyświetlone w przypadku innego błędu. 
