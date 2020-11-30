@@ -125,7 +125,11 @@ function makeANewObject(album, var1){
     }
 ```
 
-Na koniec zostaje wyświetlony obiekt dzięki funkcji **then**, jednocześnie w przypadku błędu wykorzystany jest **catch** oraz na zakończenie **finally**.
+Na koniec zostaje wyświetlony obiekt dzięki funkcji **then**, jednocześnie w przypadku błędu wykorzystany jest **catch** oraz na zakończenie **finally**. Wynik operacji:
+
+[!alt text](https://i.imgur.com/u24Ym8h.png)
+
+## 3. async/await + fetch
 
 
 
