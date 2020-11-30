@@ -193,7 +193,13 @@ Na początku funkcji zad41 ustawiana jest wartość url, a następnie tworzone j
     xhr.send();
     xhr.onload = function() { 
 
-        ...
+        ... kod, który sięwykona przy poprawnym wykonaniu żądania ...
+    }
+
+    xhr.onerror = function() {
+            
+        ... co się wydarzy podczas błędu w wysyłaniu żądania ...
+
     }
 
 ```
