@@ -255,6 +255,12 @@ Dla niepoprawnej wartości ID:
 
 Tworzenie nowego obiektu za pomocą wysyłania żądania metodą fetch. Wefekcie końcowym zwracany jest obiekt, który zawiera w sobie wartość "artist" dla danego id, oraz wartość favourite, czyli ulubioną piosenkę z danego albumu.
 
+```
+function newObject5(var1, var2){
+        return ({"Zespół": var1, "Ulubiona piosenka": var2});
+    }
+```
+
 Dla poprawnych wartości id przy wywoływaniu
 
 1. Dla id = 1
