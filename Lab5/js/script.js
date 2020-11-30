@@ -236,7 +236,7 @@
     let btn5 = document.getElementById("btn5");
     btn5.addEventListener("click", function(){
         // wywołanie funkcji
-        getAgeAndYear(26);       
+        getAgeAndYear(21);       
     })
     
 
@@ -301,7 +301,7 @@
         console.log("---- Task 3.2: ");
 
         // wywoływanie
-        getAlbum(212);
+        getAlbum(1);
         getAlbum(2);
     })
 
@@ -492,7 +492,7 @@
 
     function zad61(id){
         // dostęp do json za pomocą axios w zależności od podanego id na wejściu
-        axios.get(`https://my-json-server.typicode.com/jagodalewandowska/my-json${id}`)
+        axios.get(`https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/${id}`)
         .then(function (response) {
 
             // pobranie wartości

@@ -223,7 +223,7 @@ Dla błędnych wartości:
 
 ![alt text](https://i.imgur.com/sgIUpdU.png)
 
-Błąd **onerror** zostanie wywołany w przypadku kiedy nie zostanie nawiązane połaczenie, pn. brak internetu.
+Błąd **onerror** zostanie wywołany w przypadku kiedy nie zostanie nawiązane połaczenie.
 
 ## Metoda fetch
 
@@ -279,7 +279,7 @@ Pobranie danych, a następnie wykonaniu na nim operacji arytmetycznych. W tym pr
 ... axios.get('link') ...
 ```
 
-a także możliwe jest zastosowanie funkcji then, w przypadku otrzymania odpowiedzi, a także error, w przypadku niepowodzenia. Można sprawdzić id, a także co ma zostać wyświetlone w przypadku innego błędu. 
+Możliwe jest zastosowanie funkcji **then**, w przypadku otrzymania odpowiedzi, a także **error**, w przypadku niepowodzenia. Można sprawdzić id, a także co ma zostać wyświetlone w przypadku innego błędu. 
 
 Dla poprawnych wartości id przy wywoływaniu
 
@@ -297,8 +297,29 @@ W przypadku błędnego id:
 
 W przypadku błędnego adresu:
 
-![alt text](https://i.imgur.com/AWBSjh0.png)
+![alt text](https://i.imgur.com/AWBSjh0.png)  
 
+- ### Zadanie 6.2
+
+Zadanie polega na wykorzystaniu biblioteki axios, tym razem by utworzyć nowy obiekt. Tworzę nową funkcję newObject6 przypisującą parametry na wejściu do odpowiednio Album oraz Rok Wydania.
+
+Dla poprawnych wartości id przy wywoływaniu
+
+1. Dla id = 1
+
+![alt text](https://i.imgur.com/jXdx8Hs.png)
+
+2. Dla id = 2
+
+![alt text](https://i.imgur.com/tIkq7WK.png)
+
+W przypadku błędnego id:
+
+![alt text](https://i.imgur.com/faWUxAi.png)
+
+W przypadku błędnego adresu:
+
+![alt text](https://i.imgur.com/onu1OoI.png)  
 
 
 
