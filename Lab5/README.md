@@ -29,12 +29,14 @@ W zadaniu pierwszym wymagane było utworzenie takiej funkcji zwanej funkcją zwr
 
 - ### Zadanie 1.1:
 
-Treść zadania: *Wykorzystaj funkcję zwrotną do pobrania dwóch różnych wartości liczbowych (z różnych poziomów zagnieżdżenia) z ww. obiektu JSON i wykonaj wybrane działanie na tych liczbach.*
+#### Treść zadania: *Wykorzystaj funkcję zwrotną do pobrania dwóch różnych wartości liczbowych (z różnych poziomów zagnieżdżenia) z ww. obiektu JSON i wykonaj wybrane działanie na tych liczbach.*
 
-#### Do zadania pierwszego w celu wysłania żądania używana jest metoda getJSON.
+Do zadania pierwszego w celu wysłania żądania używana jest metoda getJSON.
 
 ```
-$.getJSON("https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/2"
+$.getJSON("https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/, function(data){
+    ...
+}"
 ```
 
 
