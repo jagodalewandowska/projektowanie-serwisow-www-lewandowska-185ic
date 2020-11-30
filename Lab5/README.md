@@ -11,8 +11,6 @@
 ![alt text](https://i.imgur.com/RHwuCYE.png)
 </details>
 
-
-
 # Zrzuty ekranów poszczególnych stron
 
 ### Strona główna
@@ -23,7 +21,16 @@
 
 ### Wykonanie kolejno polecenia z zadania
 
-#### W celu użycia utworzonego przeze mnie obiektu json, użyłam strony na której znajdowały się wymienione w przykładzie obiekty users. Po dodaniu do swojego repozytorium taki plik jest automatycznie dostępny do użytku, dlatego ze względu na posiadanie swojego repozytorium prywatnego musiałam ten obiekt dodać w nowym - [my-json](https://github.com/jagodalewandowska/my-json).
+#### W celu użycia utworzonego przeze mnie obiektu json, użyłam strony na której znajdowały się wymienione w przykładzie obiekty users. Po dodaniu do swojego repozytorium taki plik jest automatycznie dostępny do użytku, dlatego ze względu na posiadanie swojego repozytorium prywatnego musiałam ten obiekt dodać w nowym - [my-json](https://github.com/jagodalewandowska/my-json), publicznym.
 
-#### 1. Funkcja zwrotna (callback)
+## 1. Funkcja zwrotna (callback)
+
+#### W zadaniu pierwszym wymagane było utworzenie takiej funkcji, która zostanie wykonana wtedy gdy działanie innej się zakończy. 
+
+- ##### Task 1.1
+
+Wykorzystaj funkcję zwrotną do pobrania dwóch różnych wartości liczbowych (z różnych poziomów zagnieżdżenia) z ww. obiektu JSON i wykonaj wybrane działanie na tych liczbach.
+
+
+
 
