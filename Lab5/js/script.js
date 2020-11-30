@@ -535,7 +535,7 @@
         return ({"Album": var1, "Rok wydania": var2});
      }
 
-     function zad61(id){
+     function zad62(id){
         axios.get(`https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/${id}`)
         .then(function (response) {
             let var1 = response.data.albums[0].title;
@@ -558,8 +558,8 @@
     btn12.addEventListener("click", function(){        
         console.log(" ");
         console.log("6 -- Metoda Fetch ");
-        console.log("---- Task 6.1: ");
+        console.log("---- Task 6.2: ");
         // wywołanie funkcji, dwa przykłady
-        zad61(1);
-        zad61(2);   
+        zad62(1);
+        zad62(2);   
     })

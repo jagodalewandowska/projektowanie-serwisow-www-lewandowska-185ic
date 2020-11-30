@@ -43,7 +43,7 @@ $.getJSON("https://my-json-server.typicode.com/jagodalewandowska/my-json/artists
 });"
 ```
 
-Za pomocą funkcji zwrotnej pobierane są wartości rok oraz wiek, a następnie następuje wywołana zostaje ona przekazując wynik działania, jakim jest rok urodzenia piosenkarki. W wywołaniu calculateYear zostają wyświetlone wyniki oraz dane wprowadzone - by sprawdzić, czy poprawnie zostały pobrane z obiektu JSON. Część kodu na której operuję w tym zadaniu:
+Za pomocą funkcji zwrotnej pobierane są wartości rok oraz wiek, a następnie następuje wywołana zostaje ona przekazując wynik działania. W wywołaniu calculateYear zostają wyświetlone wyniki oraz dane wprowadzone - by sprawdzić, czy poprawnie zostały pobrane z obiektu JSON. Część kodu na której operuję w tym zadaniu:
 
 ```
 {
@@ -69,7 +69,20 @@ Za pomocą funkcji zwrotnej pobierane są wartości rok oraz wiek, a następnie 
 ...
 ```
 
-Zadaniem było pobranie danych zagnieżdżonych,
+Zadaniem było pobranie danych zagnieżdżonych, a następnie wykonanie operacji na tych wartościach. Wynik działań, jakim jest rok urodzenia piosenkarki:
+
+![alt text](https://i.imgur.com/OlOxYJC.png)  
+
+- ### Zadanie 1.2:
+
+*Wykorzystaj funkcję zwrotną do pobrania dwóch różnych łańcuchów znakowych (z różnych poziomów zagnieżdżenia) z ww. obiektu JSON i za pomocą template strings stwórz łańcuch znakowy z użyciem obu wcześniej wyekstrahowanych łańcuchów znakowych.* 
+
+
+---
+
+
+
+
 
 
 
