@@ -25,9 +25,9 @@
 
 ## 1. Funkcja zwrotna (callback)
 
-#### W zadaniu pierwszym wymagane było utworzenie takiej funkcji, która zostanie wykonana wtedy gdy działanie innej się zakończy. 
+W zadaniu pierwszym wymagane było utworzenie takiej funkcji zwanej funkcją zwrotną (callback), która zostanie wykonana wtedy gdy działanie innej się zakończy.
 
-- ##### Task 1.1
+- #### Task 1.1
 
 Wykorzystaj funkcję zwrotną do pobrania dwóch różnych wartości liczbowych (z różnych poziomów zagnieżdżenia) z ww. obiektu JSON i wykonaj wybrane działanie na tych liczbach.
 
