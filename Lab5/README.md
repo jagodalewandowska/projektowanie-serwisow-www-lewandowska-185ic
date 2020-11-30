@@ -22,6 +22,7 @@
 ### Wykonanie kolejno polecenia z zadania
 
 #### W celu użycia utworzonego przeze mnie obiektu json, użyłam strony na której znajdowały się wymienione w przykładzie obiekty users. Po dodaniu do swojego repozytorium taki plik jest automatycznie dostępny do użytku, dlatego ze względu na posiadanie swojego repozytorium prywatnego musiałam ten obiekt dodać w nowym - [my-json](https://github.com/jagodalewandowska/my-json), publicznym.
+ 
 
 ## 1. Funkcja zwrotna (callback)
 
@@ -37,10 +38,12 @@ W zadaniu pierwszym wymagane było utworzenie takiej funkcji zwanej funkcją zwr
 Do zadania pierwszego w celu wysłania żądania używana jest metoda getJSON.
 
 ```
-$.getJSON("https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/, function(data){
+$.getJSON("https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/2, function(data){
     ...
 });"
 ```
+
+Za pomocą niego pobierane są wartości rok oraz wiek, a następnie następuje wywołana zostaje ona przekazując wynik działania, jakim jest rok urodzenia piosenkarki. W wywołaniu funkcji calculateYear zostają wyświetlone wyniki oraz dane wprowadzone - by sprawdzić, czy poprawnie zostały pobrane z obiektu JSON.
 
 
 
