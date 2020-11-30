@@ -258,7 +258,7 @@ fetch( nasze url )
 
     }
 
-    .catch ( ... co się wydarzy podczas wyłapania błędu ... ))
+    .catch ( error => ... co się wydarzy podczas wyłapania błędu ... ))
 ```
 
 Dla poprawnych wartości id przy wywoływaniu funkcji:
@@ -308,13 +308,15 @@ Pobranie danych, a następnie wykonaniu na nim operacji arytmetycznych. W tym pr
 
 ```
 axios.get(... url ...)
-        .then (function (response) {
+    .then (function (response) {
 
-                ...
+            ... w przypadku pomyślnego pobrania ...
 
-        })
-        .catch(... w przypadku wyłapania błędu ...));
-
+    })
+    .catch(function (error) {
+            ... w przypadku błędu ...
+    })
+})
 ```
 
 Możliwe jest zastosowanie funkcji **then**, w przypadku otrzymania odpowiedzi, a także **error**, w przypadku niepowodzenia. Można sprawdzić id, a także co ma zostać wyświetlone w przypadku innego błędu. 
