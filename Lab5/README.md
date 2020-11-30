@@ -8,7 +8,7 @@
 <details>
 <summary>Zrzut ekranu z poleceniami</summary>
 
-![alt text](https://imgur.com/RHwuCYE)
+![alt text](https://i.imgur.com/RHwuCYE.png)
 </details>
 
 
