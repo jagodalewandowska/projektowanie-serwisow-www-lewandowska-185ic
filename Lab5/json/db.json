@@ -64,6 +64,13 @@
                             "Benny": 30,
                             "Anni-Frid": 31
                         }
+                    ],
+                    "charts": [
+                        {
+                            "Australia": 1,
+                            "UK": 1,
+                            "Japan": 3
+                        }
                     ]
                 },
                 {
@@ -77,6 +84,13 @@
                             "Björn": 34,
                             "Benny": 33,
                             "Anni-Frid": 34
+                        }
+                    ],
+                    "charts": [
+                        {
+                            "Australia": 5,
+                            "UK": 1,
+                            "Japan": 9
                         }
                     ]
                 }
