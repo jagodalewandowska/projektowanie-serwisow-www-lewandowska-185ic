@@ -51,25 +51,7 @@ Za pomocą funkcji zwrotnej pobierane są wartości rok oraz wiek, a następnie 
   "artist": "ABBA",
   "albums": [
     {
-      "id": 21,
-      "title": "Arrival",
-      "year": 1976,
-      "favourite": "Dancing Queen",
-      "ages": [
-        {
-          "Agnetha": 26,
-          "Björn": 31,
-          "Benny": 30,
-          "Anni-Frid": 31
-        }
-      ],
-      "charts": [
-        {
-          "Australia": 1,
-          "UK": 1,
-          "Japan": 3
-        }
-      ]
+      ...
     },
     {
       "id": 22,
@@ -84,16 +66,7 @@ Za pomocą funkcji zwrotnej pobierane są wartości rok oraz wiek, a następnie 
           "Anni-Frid": 34
         }
       ],
-      "charts": [
-        {
-          "Australia": 5,
-          "UK": 1,
-          "Japan": 9
-        }
-      ]
-    }
-  ]
-}
+...
 ```
 
 Zadaniem było pobranie danych zagnieżdżonych,
