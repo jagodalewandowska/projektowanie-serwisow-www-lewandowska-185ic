@@ -43,7 +43,35 @@ $.getJSON("https://my-json-server.typicode.com/jagodalewandowska/my-json/artists
 });"
 ```
 
-Za pomocą niego pobierane są wartości rok oraz wiek, a następnie następuje wywołana zostaje ona przekazując wynik działania, jakim jest rok urodzenia piosenkarki. W wywołaniu funkcji calculateYear zostają wyświetlone wyniki oraz dane wprowadzone - by sprawdzić, czy poprawnie zostały pobrane z obiektu JSON.
+Za pomocą funkcji zwrotnej pobierane są wartości rok oraz wiek, a następnie następuje wywołana zostaje ona przekazując wynik działania, jakim jest rok urodzenia piosenkarki. W wywołaniu calculateYear zostają wyświetlone wyniki oraz dane wprowadzone - by sprawdzić, czy poprawnie zostały pobrane z obiektu JSON. Część kodu na której operuję w tym zadaniu:
+
+```
+...
+      "id": 22,
+      "title": "Voulez-Vous",
+      "year": 1979,
+      "favourite": "Gimme! Gimme! Gimme!",
+      "ages": [
+        {
+          "Agnetha": 29,
+          "Björn": 34,
+          "Benny": 33,
+          "Anni-Frid": 34
+        }
+      ],
+      "charts": [
+        {
+          "Australia": 5,
+          "UK": 1,
+          "Japan": 9
+        }
+      ]
+    ...
+```
+
+Zadaniem było pobranie danych zagnieżdżonych,
+
+
 
 
 
