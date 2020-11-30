@@ -35,8 +35,7 @@
     btn2.addEventListener("click", function(){
         $.getJSON("https://my-json-server.typicode.com/jagodalewandowska/my-json/artists/2", function(data) {           
             
-
-            function getSong(fn) {
+        function getSong(fn) {
                 // przypisanie wartości
                 let artist = data.artist;
                 let  album = data.albums[0].title;

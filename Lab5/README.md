@@ -80,6 +80,14 @@ Zadaniem było pobranie danych zagnieżdżonych, a następnie wykonanie operacji
 
 ---
 
+Do zadania wykorzystana została ta sama metoda getJSON. W funkcji zwrotnej przypisywane są do wartości, a następnie tworzony jest łańcuch znakowy stworzony z nazwy artysty, albumu oraz piosenki. Są one w różnych poziomach zagnieżdżenia (fragment kodu wyżej).
+
+```
+`Nazwa zespołu to ${artist}, album to ${album}, ulubiona piosenka to ${song}.`
+```
+
+![alt text](https://i.imgur.com/H8eClWH.png)
+
 
 
 
