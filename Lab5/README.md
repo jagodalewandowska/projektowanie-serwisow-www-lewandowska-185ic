@@ -153,7 +153,7 @@ Przycisk wywołuje funkcję zakładając, że id jest równe 21. Wynik operacji:
 
 ![alt text](https://i.imgur.com/F5pgYXT.png)  
 
-W rzypadku, kiedy id jest niepoprawne (dla przykładu 26), ponieważ zakładam, że może mieć ono wartość tutaj jedynie 21 oraz 22:
+W przypadku, kiedy id jest niepoprawne (dla przykładu 26), ponieważ zakładam, że może mieć ono wartość tutaj jedynie 21 oraz 22:
 
 ![alt text](https://i.imgur.com/fCzxBsP.png)  
 
@@ -204,7 +204,7 @@ Na początku funkcji zad41 ustawiana jest wartość url, a następnie tworzone j
 
 ```
 
-Przy załadowaniu **onload** dodałam zmienną get, która będzie używana by przekazywać pobierane wartości, zamiast wcześniej użytych np. response, czy data. Następnie przejście do wypisywania wartości i wyników w konsoli. Wykorzystujędo tego wcześniej utworzoną funkcję addYearAndChart.
+Przy załadowaniu **onload** dodałam zmienną get, która będzie używana by przekazywać pobierane wartości, zamiast wcześniej użytych np. response, czy data. Następnie przejście do wypisywania wartości i wyników w konsoli. Wykorzystuję do tego wcześniej utworzoną funkcję addYearAndChart.
 
 1. Dla wartości id = 1:
 
@@ -214,9 +214,9 @@ Przy załadowaniu **onload** dodałam zmienną get, która będzie używana by p
 
 ![alt text](https://i.imgur.com/Oxmk170.png)
 
-W przypadku wyłapania błędu następuje kolejny krok **onerror**, który informuje o tym, że nie została wykonana operacja onload. Wykonany on zostanie, kiedy nie zostanie poprawnie załadowany xhr.
+W przypadku wyłapania błędu następuje kolejny krok **onerror**, który informuje o tym, że nie została wykonana operacja onload. Wykonany zostaje, kiedy xhr nie jest załadowany poprawnie.
 
-Rónież dla przykładu usunęłam fragment w url:
+Również dla przykładu usunęłam fragment w url:
 
 ```
 ... /artists/ ...
@@ -242,7 +242,7 @@ Dla błędnych wartości:
 
 ![alt text](https://i.imgur.com/sgIUpdU.png)
 
-Błąd **onerror** zostanie wywołany w przypadku kiedy nie zostanie nawiązane połaczenie.
+Błąd **onerror** zostanie wywołany w przypadku kiedy nie zostanie nawiązane połaczenie, lub zostanie przerwane.
 
 ## Metoda fetch
 
@@ -365,27 +365,6 @@ Dla poprawnych wartości id przy wywoływaniu
 
 ![alt text](https://i.imgur.com/tIkq7WK.png)
 
-W przypadku błędnego id:
-
-![alt text](https://i.imgur.com/faWUxAi.png)
-
 W przypadku błędnego adresu:
 
 ![alt text](https://i.imgur.com/onu1OoI.png)  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
