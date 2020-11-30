@@ -211,6 +211,12 @@ Wynik:
 
 Zadanie polega na tym samym, a w efekcie końcowym ma zostać otrzymany nowy obiekt. Utworzyłam funkcję o nazwie newObject4, który zwraca pierwszą i drugą piosenkę. W konsoli wyświetlone są również wartości pobrane.
 
+```
+function newObject4(var1, var2){
+        return ({"Pierwsza piosenka": var1, "Druga piosenka": var2});
+    }
+```
+
 1. Dla id = 1;
 
 ![alt text](https://i.imgur.com/978Z7TC.png)  
