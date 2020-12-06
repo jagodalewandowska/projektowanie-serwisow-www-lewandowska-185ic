@@ -34,11 +34,23 @@ W zadaniu stworzyłam następujące komponenty:
 
 W komponencie na samym początku definiowana jest klasa, która zawiera konstruktor, a także wymagająca odwołania super(props). Tutaj również przechowywane są elementy wyświetlane później na stronie. Zawierają one id, tytuł oraz rok. 
 
+```
+		...
+this.state = {
+      events: [
+        { id: 1, title: "Episode IV – A New Hope", year: "1977" },
+        { id: 2, title: "Episode V – The Empire Strikes Back", year: "1980" },
+        { id: 3, title: "Episode VI – Return of the Jedi", year: "1983" }, ...
+                ...
+```
+
 W dalszej części wywoływane są filmy przy użyciu:
 ```
 this.state.events.map
 ```
-Komponent App zwraca za pomocą komponentu potomnego Movies sformatowane wartości na liście. 
+Komponent App zwraca za pomocą komponentu potomnego Movies sformatowane wartości w liście. 
+
+![alt text](https://i.imgur.com/I4kl9M0.png)
 
 
 ## Komponent Nav oraz Header
