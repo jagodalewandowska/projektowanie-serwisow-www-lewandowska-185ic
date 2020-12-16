@@ -24,8 +24,7 @@ class App extends Component {
         <div>
         <nav className="navbar navbar-expand-sm navbar-dark">
           <div className="navbar-nav">
-            <Link to="/" className="nav-link active">Homepage
-            <span className="sr-only"></span></Link>
+            <Link to="/" className="nav-link active">Homepage</Link>
             <Link to="/instruments" className="nav-link active">Instruments</Link>
             <Link to="/composers" className="nav-link active">Composers</Link>
           </div>

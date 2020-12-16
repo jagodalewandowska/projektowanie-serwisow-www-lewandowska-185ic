@@ -16,35 +16,35 @@ const tileData = [
    },
    {
      img: bac,
-     title: 'Tchaikovsky',
+     title: 'Bach',
    },
    {
      img: bee,
-     title: 'Tchaikovsky',
+     title: 'Beethoven',
    },
    {
      img: bra,
-     title: 'Tchaikovsky',
+     title: 'Brahms',
    },
    {
      img: cho,
-     title: 'Tchaikovsky',
+     title: 'Chopin',
    },
    {
      img: deb,
-     title: 'Tchaikovsky',
+     title: 'Debussy',
    },
    {
      img: moz,
-     title: 'Tchaikovsky',
+     title: 'Mozart',
    },
    {
      img: viv,
-     title: 'Tchaikovsky',
+     title: 'Vivaldi',
    },
    {
      img: wag,
-     title: 'Tchaikovsky',
+     title: 'Wagner',
    }
  ];
 
