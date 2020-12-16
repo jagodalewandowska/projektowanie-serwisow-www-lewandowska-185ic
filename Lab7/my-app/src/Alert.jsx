@@ -18,9 +18,9 @@ export default function Alert() {
   };
 
   return (
-    <div style={{marginTop: 100, marginLeft: 900}}>
-      <Button variant="outlined" color="primary" justify="center" onClick={handleClickOpen}>
-        Open alert dialog
+    <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', marginTop: 20}}>
+      <Button variant="outlined" color="secondary" onClick={handleClickOpen} style={{fontFamily: 'Bevan'}}>
+        Tell us what you think!
       </Button>
       <Dialog
         open={open}

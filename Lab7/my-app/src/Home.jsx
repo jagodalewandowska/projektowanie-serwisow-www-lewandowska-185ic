@@ -1,13 +1,13 @@
 import React from 'react';
 import Pics from './Pics'
 import About from './About'
-import Alert from './Alert'
+import Rate from './Rate'
 
 const Home = () => (   
     <div>
         <About />
-        <Pics />   
-        <Alert />     
+        <Pics />  
+        <Rate />    
     </div> 
 );
 

@@ -6,12 +6,17 @@ import './App.css'
 import Header from './Header'
 
 import {
+  /* główny komponent */
   BrowserRouter as Router,
+  /* Renderowanie pierwszej lokalizacji która pasuje - trasa */
   Switch,
+  /* Definiowanie ścieżek */
   Route,
+  /* Przełączanie między ścieżkami */
   Link
 } from "react-router-dom";
 
+/* Trzy komponenty -> Homepage, Instruments, Composers*/
 class App extends Component {
   render(){
     return (
@@ -21,8 +26,8 @@ class App extends Component {
           <div className="navbar-nav">
             <Link to="/" className="nav-link active">Homepage
             <span className="sr-only"></span></Link>
-            <Link to="/instruments" className="nav-link">Instruments</Link>
-            <Link to="/composers" className="nav-link">Composers</Link>
+            <Link to="/instruments" className="nav-link active">Instruments</Link>
+            <Link to="/composers" className="nav-link active">Composers</Link>
           </div>
         </nav>
         <Header />
