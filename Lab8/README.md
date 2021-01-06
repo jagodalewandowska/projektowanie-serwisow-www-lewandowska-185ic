@@ -110,5 +110,42 @@ Niepoprawny wpis:
 
 ![](https://i.imgur.com/pLtKaXP.gif)
 
+# Git difftool
+
+### 1. Dla fragmentu kalkulatora
+
+Aby ukazać w jaki sposób działa git diff utworzyłam dwa nowe commity, w których dla przykładu dodaję przyciski bootstrap zamiast tych oryginalnych. Do konsoli kopiuję numery po prawej stronie.
+
+![](https://i.imgur.com/bqwsvV8.png)
+
+Wynik operacji:
+
+![](https://i.imgur.com/F39oLTv.png)
+![](https://i.imgur.com/bhZK7WT.png)
+
+### 2. Dla React score indicator
+
+Dla React score indicator dodałam różne wartości dostępne do modyfikacji, ponieważ nie dodałam ich przed zmianą utworzyłam po raz kolejny nowe commity aby je porównać:
+
+![](https://i.imgur.com/tjOOQmK.png)
+
+Po wykonaniu polecenia git diff:
+
+![](https://i.imgur.com/nGDkJma.png)
+
+### 3. Dla Modala
+
+Tak jak wcześniej wymieniona zmiana przycisku, wielkości, przejścia oraz wielkości okna i tekstu.
+
+![](https://i.imgur.com/FXdn0yk.png)
+
+Wynik w konsoli:
+
+![](https://i.imgur.com/KXgJHHB.png)
+
+
+
+
+
 
 
