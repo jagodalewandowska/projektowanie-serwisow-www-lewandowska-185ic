@@ -1,5 +1,6 @@
 import React from 'react';
 import Chart from './Chart';
+import Modal from './Modal';
 
 const Random = () => (   
     <div class="container" style={{marginTop: "50px"}}>    
@@ -7,8 +8,9 @@ const Random = () => (
             <div class="col-sm">
                 <Chart />
             </div>
-            <div class="col-sm">
-                One of three columns
+            <div class="col-sm">  
+            <div class="cfont">Wciśnij przycisk:</div>              
+                <Modal />
             </div>
             <div class="col-sm">
                 One of three columns

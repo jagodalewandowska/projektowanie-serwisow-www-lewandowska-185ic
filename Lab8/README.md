@@ -10,7 +10,7 @@
 ---
 # Wykonanie zadań - dodane komponenty
 
-## React-typical
+## react-typical
 
 Pierwszym dodanym komponentem jest React-typical, który dodaje efekt pisania tekstu. Wykorzystałam go na głównej stronie, instalując poprzez polecenie
 ```
@@ -35,7 +35,7 @@ a także wyrównanie tekstu.
 
 ![](https://i.imgur.com/RmNCAsY.png)
 
-## React-score-indicator
+## react-score-indicator
 
 Instalacja komponentu za pomocą polecenia
 ```
@@ -54,7 +54,27 @@ Wygląd:
 
 ![](https://i.imgur.com/KlG4NOt.png)
 
-# Kalkulator
+## react-awesome-modal
+
+Kolejny komponent to wyskakujące okno, które można modyfikować skąd ma "przylecieć". Zmieniona została wielkość wyskakującego okienka, przycisk oraz kierunek przylotu.
+
+![](https://i.imgur.com/cO1Z0sJ.png)
+
+Import Modala, a następnie stworzenie funkcji otwierających i zamykających okno - zmieniają widoczność.
+
+![](https://i.imgur.com/yWxi6Xd.png)
+
+Utworzenie przycisku i ustawienie tekstu:
+
+![](https://i.imgur.com/Lyv6hVH.png)
+
+Po wciśnięciu:
+
+![](https://i.imgur.com/s55O6ke.png)
+
+
+
+## Kalkulator
 
 Na podstronie /calc można znaleźć kalkulator wybrany jako przykład z tego [Githuba](https://github.com/niinpatel/calculator-react/).
 
