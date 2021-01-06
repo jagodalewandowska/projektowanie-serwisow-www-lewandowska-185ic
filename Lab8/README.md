@@ -50,7 +50,9 @@ Zmodyfikowałam go, wykorzystując dostępne opcje:
 
 ![](https://i.imgur.com/TZ5ctuD.png)
 
+Wygląd:
 
+![](https://i.imgur.com/KlG4NOt.png)
 
 # Kalkulator
 
