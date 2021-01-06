@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import './App.css';
 import Home from './Home'
+import MyApp from './MyApp'
 import Typical from 'react-typical'
 import wym from './images/wymagania.png';
 
@@ -28,6 +29,7 @@ class App extends Component {
         </nav>
         <Switch>
           <Route path="/app">
+            <MyApp />
           </Route>
           <Route path="/">
             <div className="typical">         

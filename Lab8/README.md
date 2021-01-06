@@ -35,11 +35,33 @@ a także wyrównanie tekstu.
 
 ![](https://i.imgur.com/RmNCAsY.png)
 
+## Kalkulator
 
+Na podstronie /calc można znaleźć kalkulator wybrany jako przykład z tego [Githuba](https://github.com/niinpatel/calculator-react/). Wybrany on został jako prosty przykład, który jednocześnie można wykorzystać w testowaniu narzędzia git difftool.
 
+Wygląd:
 
+![](https://i.imgur.com/G88GOPE.png)
 
+Modyfikacją kalkulatora jest użycie bootstrapa do zmiany przycisków, a także parę małych zmian w css. Wykorzystana jest funkcja onClick która w zależności od wciśniętego przycisku wykonuje odpowiednią funkcję:
 
+![](https://i.imgur.com/5bwoM6n.png)
+
+Funkcja calculate, która w zależności od operacji aktualizje szare pole. Wykorzystuje try oraz catch w przypadku znalezienia błędu w zapisie:
+
+![](https://i.imgur.com/NlA2Z4m.png)
+
+Resetowanie oraz usuwanie poprzedniej operacji:
+
+![](https://i.imgur.com/XsxTqq1.png)
+
+Wywołanie nagłówka jak i kalkulatora:
+
+![](https://i.imgur.com/s8VJGh9.png)
+
+Definiowanie rzędów przycisków (każdy na takiej samej zasadzie) -- KeyPad.jsx.
+
+![](https://i.imgur.com/8d8DHyK.png)
 
 
 
