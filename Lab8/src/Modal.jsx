@@ -26,13 +26,15 @@ export default class Mod extends Component {
     render() {
         return (
             <section>
-                <h1>React-Modal Examples</h1>
-                <input type="button" value="Open" onClick={() => this.openModal()} />
-                <Modal visible={this.state.visible} width="400" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
-                    <div>
-                        <h1>Title</h1>
-                        <p>Some Contents</p>
-                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
+            {/* Utworzenie przycisku z modyfikacją bootstrap */}            
+                <input type="button" class="btn btn-outline-info" value="Otworz okno" onClick={() => this.openModal()} />
+                {/* Zmiana przejścia oraz wielkości okienka */}
+                <Modal visible={this.state.visible} width="500" height="200" effect="fadeInLeft" onClickAway={() => this.closeModal()}>
+                    {/* Tekst w wyskakującym okienku */}
+                    <div class="card">
+                        <h3>Example</h3>
+                        <p>Przykładowe użycie komponentu</p>
+                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close me!</a>
                     </div>
                 </Modal>
             </section>
