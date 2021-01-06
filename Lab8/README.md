@@ -8,9 +8,9 @@
 
 
 ---
-# Wykonanie zadań
+# Wykonanie zadań - dodane komponenty
 
-### Dodane komponenty
+## React-typical
 
 Pierwszym dodanym komponentem jest React-typical, który dodaje efekt pisania tekstu. Wykorzystałam go na głównej stronie, instalując poprzez polecenie
 ```
@@ -35,9 +35,26 @@ a także wyrównanie tekstu.
 
 ![](https://i.imgur.com/RmNCAsY.png)
 
-## Kalkulator
+## React-score-indicator
 
-Na podstronie /calc można znaleźć kalkulator wybrany jako przykład z tego [Githuba](https://github.com/niinpatel/calculator-react/). Wybrany on został jako prosty przykład, który jednocześnie można wykorzystać w testowaniu narzędzia git difftool.
+Instalacja komponentu za pomocą polecenia
+```
+npm install --save react-score-indicator
+```
+
+Utworzony został Random.jsx który zawiera trzy różne komponenty. Jeden z nich to Chart. 
+
+![](https://i.imgur.com/xVTIuEQ.png)
+
+Zmodyfikowałam go, wykorzystując dostępne opcje:
+
+![](https://i.imgur.com/TZ5ctuD.png)
+
+
+
+# Kalkulator
+
+Na podstronie /calc można znaleźć kalkulator wybrany jako przykład z tego [Githuba](https://github.com/niinpatel/calculator-react/).
 
 Wygląd:
 

@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import './App.css';
 import Home from './Home'
 import MyApp from './MyApp'
+import Random from './Random'
 import Typical from 'react-typical'
 import wym from './images/wymagania.png';
 
@@ -24,12 +25,16 @@ class App extends Component {
         <nav className="navbar navbar-expand-sm navbar-dark">
           <div className="navbar-nav">
             <Link to="/" className="nav-link active">Homepage</Link>
-            <Link to="/app" className="nav-link">App</Link>
+            <Link to="/app" className="nav-link">Calculator</Link>
+            <Link to="/random" className="nav-link">Random</Link>
           </div>
         </nav>
         <Switch>
           <Route path="/app">
             <MyApp />
+          </Route>
+          <Route path="/random">
+            <Random />
           </Route>
           <Route path="/">
             <div className="typical">         
