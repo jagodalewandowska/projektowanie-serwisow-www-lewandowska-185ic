@@ -6,6 +6,13 @@
 
 ![alt text](https://i.imgur.com/1ydK2wz.png)  
 
+### Spis treści
+
+1. [react-typical](https://github.com/jagodalewandowska/projektowanie-serwisow-www-lewandowska-185ic/tree/main/Lab8#react-typical)
+2. [react-score-indicator](https://github.com/jagodalewandowska/projektowanie-serwisow-www-lewandowska-185ic/tree/main/Lab8#react-typical)
+3. [react-awesome-modal](https://github.com/jagodalewandowska/projektowanie-serwisow-www-lewandowska-185ic/tree/main/Lab8#react-awesome-modal)
+4. [kalkulator](https://github.com/jagodalewandowska/projektowanie-serwisow-www-lewandowska-185ic/tree/main/Lab8#react-awesome-modal)
+
 
 ---
 # Wykonanie zadań - dodane komponenty
