@@ -6,7 +6,7 @@
 
 ![alt text](https://i.imgur.com/1ydK2wz.png)  
 
-### Spis treści
+## Spis treści
 
 1. [react-typical](https://github.com/jagodalewandowska/projektowanie-serwisow-www-lewandowska-185ic/tree/main/Lab8#react-typical)
 2. [react-score-indicator](https://github.com/jagodalewandowska/projektowanie-serwisow-www-lewandowska-185ic/tree/main/Lab8#react-typical)
