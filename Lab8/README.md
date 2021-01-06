@@ -1,4 +1,4 @@
-# Lab 8 - React - aplikacja 2
+# Lab 8 - React - aplikacja 3
 
 ####
 ##### Wymagania dotyczące ósmego zadania:
