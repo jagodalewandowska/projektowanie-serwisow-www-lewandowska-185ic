@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+
+.App {
+  text-align: center;  
+}
+
+nav {  
+  font-family: 'Bevan';
+  background-color: #568bc9;
+}
+
+.typical {
+  font-size: 30px;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bevan';
+  color: #568bc9;
+}
+
+.card {
+  font-family: 'Bevan';
+}
