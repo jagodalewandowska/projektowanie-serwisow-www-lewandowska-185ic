@@ -1,4 +1,4 @@
-# Lab 8 - React - aplikacja 3
+# Lab 8 - React - aplikacja 2
 
 ####
 ##### Wymagania dotyczące ósmego zadania:
@@ -6,7 +6,7 @@
 
 ![alt text](https://i.imgur.com/1ydK2wz.png)  
 
-## Spis treści
+### Spis treści
 
 1. [react-typical](https://github.com/jagodalewandowska/projektowanie-serwisow-www-lewandowska-185ic/tree/main/Lab8#react-typical)
 2. [react-score-indicator](https://github.com/jagodalewandowska/projektowanie-serwisow-www-lewandowska-185ic/tree/main/Lab8#react-typical)
@@ -130,6 +130,10 @@ Wynik operacji:
 ![](https://i.imgur.com/F39oLTv.png)
 ![](https://i.imgur.com/bhZK7WT.png)
 
+- #### git difftool
+
+![](https://i.imgur.com/B9mGTNv.png)
+
 ### 2. Dla React score indicator
 
 Dla React score indicator dodałam różne wartości dostępne do modyfikacji, ponieważ nie dodałam ich przed zmianą utworzyłam po raz kolejny nowe commity aby je porównać:
@@ -140,6 +144,10 @@ Po wykonaniu polecenia git diff:
 
 ![](https://i.imgur.com/nGDkJma.png)
 
+- #### git difftool
+
+![](https://i.imgur.com/3RfRACk.png)
+
 ### 3. Dla Modala
 
 Tak jak wcześniej wymieniona zmiana przycisku, wielkości, przejścia oraz wielkości okna i tekstu.
@@ -149,6 +157,10 @@ Tak jak wcześniej wymieniona zmiana przycisku, wielkości, przejścia oraz wiel
 Wynik w konsoli:
 
 ![](https://i.imgur.com/KXgJHHB.png)
+
+- #### git difftool
+
+![](https://i.imgur.com/L90f5of.png)
 
 
 
