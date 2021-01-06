@@ -12,9 +12,6 @@ const Random = () => (
             <div class="cfont">Wciśnij przycisk:</div>              
                 <Modal />
             </div>
-            <div class="col-sm">
-                One of three columns
-            </div>
         </div>
     </div>
 );

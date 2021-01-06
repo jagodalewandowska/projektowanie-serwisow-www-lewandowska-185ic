@@ -102,7 +102,13 @@ Definiowanie rzędów przycisków (każdy na takiej samej zasadzie) -- KeyPad.js
 
 ![](https://i.imgur.com/8d8DHyK.png)
 
+Poprawne działanie:
 
+![](https://i.imgur.com/j8U7fmH.gif)
+
+Niepoprawny wpis:
+
+![](https://i.imgur.com/pLtKaXP.gif)
 
 
 
