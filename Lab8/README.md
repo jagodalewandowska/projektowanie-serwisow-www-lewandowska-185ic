@@ -10,7 +10,7 @@
 ---
 # Wykonanie zadań - dodane komponenty
 
-## react-typical
+## [react-typical](https://www.npmjs.com/package/react-typical)
 
 Pierwszym dodanym komponentem jest React-typical, który dodaje efekt pisania tekstu. Wykorzystałam go na głównej stronie, instalując poprzez polecenie
 ```
@@ -35,7 +35,7 @@ a także wyrównanie tekstu.
 
 ![](https://i.imgur.com/RmNCAsY.png)
 
-## react-score-indicator
+## [react-score-indicator](https://www.npmjs.com/package/react-score-indicator)
 
 Instalacja komponentu za pomocą polecenia
 ```
@@ -54,7 +54,7 @@ Wygląd:
 
 ![](https://i.imgur.com/KlG4NOt.png)
 
-## react-awesome-modal
+## [react-awesome-modal](https://www.npmjs.com/package/react-awesome-modal)
 
 Kolejny komponent to wyskakujące okno, które można modyfikować skąd ma "przylecieć". Zmieniona została wielkość wyskakującego okienka, przycisk oraz kierunek przylotu.
 
