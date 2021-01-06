@@ -3,6 +3,7 @@ import Result from './components/Result';
 import KeyPad from "./components/KeyPad";
 import './MyApp.css';
 import Header from "./Header"
+import Typical from 'react-typical'
 
 class MyApp extends Component {
     // Konstruktor przekazujący wynik
@@ -85,6 +86,11 @@ class MyApp extends Component {
                 {/* wyświetlenie nagłówka */}
                 <Header />
                 {/* Kalkulator */}
+                <Typical
+                    steps={['Hello', 1000, 'Hello world!', 500]}
+                    loop={Infinity}
+                    wrapper="p"
+                />
                 <div className="calculator-body">                    
                     <Result result={this.state.result}/>
                     <KeyPad onClick={this.onClick}/>

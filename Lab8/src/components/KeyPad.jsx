@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 class KeyPad extends Component {
-
     render() {
         return (
             // Przy każdym kliknięciu wywoływany będzie this.props.OnClick który przekazuje parametr
